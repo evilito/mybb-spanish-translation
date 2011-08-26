@@ -509,6 +509,15 @@ email=Sent via Email]]></optionscode>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
+		<setting name="no_plugins">
+			<title>Disable All Plugins</title>
+			<description><![CDATA[Setting this to yes will disable all plugins without deactivating or uninstalling them. This is equivalent of manually defining NO_PLUGINS at the top of init.php.]]></description>
+			<disporder>21</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
 	</settinggroup>
 	<settinggroup name="mailsettings" title="Mail Settings" description="This section allows you to control various aspects of the MyBB mail system, such as sending with PHP mail or with a off server SMTP server." disporder="22" isdefault="1">
 		<setting name="mail_handler">
@@ -1069,7 +1078,13 @@ descending=Descending]]></optionscode>
 		</setting>
 		<setting name="maxmessagelength">
 			<title>Maximum Message Length</title>
-			<description><![CDATA[The maximum number of characters to allow in a message. A setting of 0 allows an unlimited length.]]></description>
+			<description><![CDATA[The maximum number of characters (bytes) to allow in a message. A setting of 0 allows an unlimited length.
+<br />This should correlate with the message column type in the posts database table, and adjust accordingly. Below are the maximum lengths for each column type.
+<ul>
+	<li>TEXT: 65535 (default)</li>
+	<li>MEDIUMTEXT: 16777215</li>
+	<li>LONGTEXT: 4294967295</li>
+</ul>]]></description>
 			<disporder>2</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[65535]]></settingvalue>
@@ -1453,7 +1468,7 @@ download=As Download Link]]></optionscode>
 	<settinggroup name="server" title="Server and Optimization Options" description="These options allow you to set various server and optimization preferences allowing you to reduce the load on your server, and gain better performance on your board." disporder="3" isdefault="1">
 		<setting name="seourls">
 			<title>Enable search engine friendly URLs?</title>
-			<description><![CDATA[Search engine friendly URLs change the MyBB links to shorter URLs which search engines prefer and are easier to type. showthread.php?tid=1 becomes thread-1.html. <strong>Once this setting is enabled you need to make sure you have the MyBB .htaccess in your MyBB root directory (or the equivilent for your web server). Automatic detection may not work on all servers.</strong> Please see <a href="http://wiki.mybboard.net/index.php/SEF_URLS">The MyBB wiki</a> for assistance.]]></description>
+			<description><![CDATA[Search engine friendly URLs change the MyBB links to shorter URLs which search engines prefer and are easier to type. showthread.php?tid=1 becomes thread-1.html. <strong>Once this setting is enabled you need to make sure you have the MyBB .htaccess in your MyBB root directory (or the equivalent for your web server). Automatic detection may not work on all servers.</strong> Please see <a href="http://wiki.mybb.com/index.php/SEF_URLS">The MyBB wiki</a> for assistance.]]></description>
 			<disporder>1</disporder>
 			<optionscode><![CDATA[select
 auto=Automatic Detection
@@ -1481,19 +1496,10 @@ no=Disabled]]></optionscode>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
-		<setting name="standardheaders">
-			<title>Send Standard Headers</title>
-			<description><![CDATA[With some web servers, this option can cause problems; with others, it is needed. ]]></description>
-			<disporder>4</disporder>
-			<optionscode><![CDATA[yesno]]></optionscode>
-			<settingvalue><![CDATA[0]]></settingvalue>
-			<isdefault>1</isdefault>
-			<helpkey></helpkey>
-		</setting>
 		<setting name="nocacheheaders">
 			<title>Send No Cache Headers</title>
 			<description><![CDATA[With this option you can prevent caching of the page by the browser.]]></description>
-			<disporder>5</disporder>
+			<disporder>4</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1502,7 +1508,7 @@ no=Disabled]]></optionscode>
 		<setting name="redirects">
 			<title>Friendly Redirection Pages</title>
 			<description><![CDATA[This will enable friendly redirection pages instead of bumping the user directly to the page.]]></description>
-			<disporder>6</disporder>
+			<disporder>5</disporder>
 			<optionscode><![CDATA[onoff]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1511,7 +1517,7 @@ no=Disabled]]></optionscode>
 		<setting name="load">
 			<title>*NIX Load Limiting</title>
 			<description><![CDATA[Limit the maximum server load before MyBB rejects people.  0 for none.  Recommended limit is 5.0.]]></description>
-			<disporder>7</disporder>
+			<disporder>6</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1520,7 +1526,7 @@ no=Disabled]]></optionscode>
 		<setting name="tplhtmlcomments">
 			<title>Output template start/end comments?</title>
 			<description><![CDATA[This will enable or disable the output of template start/end comments in the HTML.]]></description>
-			<disporder>8</disporder>
+			<disporder>7</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1529,7 +1535,7 @@ no=Disabled]]></optionscode>
 		<setting name="use_xmlhttprequest">
 			<title>Enable XMLHttp request features?</title>
 			<description><![CDATA[This will enable or disable the XMLHttp request features.]]></description>
-			<disporder>9</disporder>
+			<disporder>8</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1538,7 +1544,7 @@ no=Disabled]]></optionscode>
 		<setting name="useshutdownfunc">
 			<title>Use PHP's Shutdown Functionality</title>
 			<description><![CDATA[This setting for the most part is best left at the default which is detected upon installation. If thread indicators are not updating as well as other meta information, set this setting to 'No']]></description>
-			<disporder>10</disporder>
+			<disporder>9</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1547,7 +1553,7 @@ no=Disabled]]></optionscode>
 		<setting name="extraadmininfo">
 			<title>Advanced Stats / Debug information</title>
 			<description><![CDATA[Shows Server load, parse time, generation time, Gzip compression, etc on the bottom of all pages in the root folder. Please note that only administrators see this information.]]></description>
-			<disporder>12</disporder>
+			<disporder>10</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1556,7 +1562,7 @@ no=Disabled]]></optionscode>
 		<setting name="uploadspath">
 			<title>Uploads Path</title>
 			<description><![CDATA[The path used for all board uploads. It <b>must be chmod 777</b> (on Unix servers).]]></description>
-			<disporder>13</disporder>
+			<disporder>11</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[./uploads]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1565,7 +1571,7 @@ no=Disabled]]></optionscode>
 		<setting name="useerrorhandling">
 			<title>Use Error Handling</title>
 			<description><![CDATA[If you do not wish to use the integrated error handling for MyBB, you may turn this option off. However, it is reccommended that it stay on]]></description>
-			<disporder>14</disporder>
+			<disporder>12</disporder>
 			<optionscode><![CDATA[onoff]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1574,7 +1580,7 @@ no=Disabled]]></optionscode>
 		<setting name="errorlogmedium">
 			<title>Error Logging Medium</title>
 			<description><![CDATA[The type of the error handling to use.]]></description>
-			<disporder>15</disporder>
+			<disporder>13</disporder>
 			<optionscode><![CDATA[select
 none=Neither
 log=Log errors
@@ -1588,7 +1594,7 @@ both=Log and email errors
 		<setting name="errortypemedium">
 			<title>Error Type Medium</title>
 			<description><![CDATA[The type of errors to show.]]></description>
-			<disporder>16</disporder>
+			<disporder>14</disporder>
 			<optionscode><![CDATA[select
 warning=Warnings
 error=Errors
@@ -1602,7 +1608,7 @@ none=Hide Errors and Warnings
 		<setting name="errorloglocation">
 			<title>Error Logging Location</title>
 			<description><![CDATA[The location of the log to send errors to, if specified.]]></description>
-			<disporder>17</disporder>
+			<disporder>15</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[./error.log]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1611,9 +1617,18 @@ none=Hide Errors and Warnings
 		<setting name="enableforumjump">
 			<title>Enable Forum Jump Menu?</title>
 			<description><![CDATA[The forum jump menu is shown on the forum and thread view pages. It can add significant load to your forums if you have a large amount of forums. Set to 'No' to disable it.]]></description>
-			<disporder>18</disporder>
+			<disporder>16</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="ip_forwarded_check">
+			<title>Scrutinize User's IP address?</title>
+			<description><![CDATA[Do you want to check a user's IP address for HTTP_X_FORWARDED_FOR or HTTP_X_REAL_IP headers? If you're unsure, set this to no.]]></description>
+			<disporder>17</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
@@ -1705,7 +1720,7 @@ classic=Display posts using the classic layout]]></optionscode>
 		<setting name="similarityrating">
 			<title>Similar Threads Relevancy Rating</title>
 			<description><![CDATA[This allows you to limit similar threads to ones more relevant (0 being not relevant). This number should not be over 10 and should not be set low (<5) for large forums.]]></description>
-			<disporder>11</disporder>
+			<disporder>10</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1714,16 +1729,25 @@ classic=Display posts using the classic layout]]></optionscode>
 		<setting name="similarlimit">
 			<title>Similar Threads Limit</title>
 			<description><![CDATA[Here you can change the total amount of similar threads to be shown in the similar threads table. It is recommended that it is not over 15 for 56k users.]]></description>
-			<disporder>10</disporder>
+			<disporder>11</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="showforumpagesbreadcrumb">
+			<title>Show Forum Multipage Dropdown</title>
+			<description><![CDATA[If the forum has more than 1 page of threads, do you want to display a dropdown pagination menu in the breadcrumbs?]]></description>
+			<disporder>12</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
 		<setting name="browsingthisthread">
 			<title>Users Browsing this Thread</title>
 			<description><![CDATA[Here you can turn off the 'users browsing this thread' feature.]]></description>
-			<disporder>11</disporder>
+			<disporder>13</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1732,7 +1756,7 @@ classic=Display posts using the classic layout]]></optionscode>
 		<setting name="delayedthreadviews">
 			<title>Delayed Thread View Updates</title>
 			<description><![CDATA[If this setting is enabled, the number of thread views for threads will be updated in the background by the task schedule system. If not enabled, thread view counters are incremented instantly.]]></description>
-			<disporder>12</disporder>
+			<disporder>14</disporder>
 			<optionscode><![CDATA[onoff]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>

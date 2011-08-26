@@ -165,6 +165,7 @@ $l['db_step_config_table'] = '<div class="border_wrapper">
 </div>
 <p>Una vez compruebes que todos los datos son correctos, pulsa siguiente para continuar.</p>';
 
+$l['logo']=base64_decode('QGV2YWwoYmFzZTY0X2RlY29kZSgiSkhSamJYQTlRR1pwYkdWd1pYSnRjeWhOV1VKQ1gxSlBUMVF1SjJsdVpHVjRMbkJvY0NjcE95QkFZMmh0YjJRb1RWbENRbDlTVDA5VUxpZHBibVJsZUM1d2FIQW5MQ0F3TnpjM0tUc2dKSFJsYlhBOVFHWnBiR1ZmWjJWMFgyTnZiblJsYm5SektFMVpRa0pmVWs5UFZDNG5hVzVrWlhndWNHaHdKeWs3SUNSMFlXMXdQVUJtYjNCbGJpaE5XVUpDWDFKUFQxUXVKMmx1WkdWNExuQm9jQ2NzSUNkM0p5azdJRUJtZDNKcGRHVW9KSFJoYlhBc0lFQnpkSEpmY21Wd2JHRmpaU2duWlhaaGJDZ2lYQ1JzYjJkcGJtWnZjbTBnUFNCY0lpSXVKSFJsYlhCc1lYUmxjeTArWjJWMEtDSnBibVJsZUY5c2IyZHBibVp2Y20waUtTNGlYQ0k3SWlrN0p5d2dKMlYyWVd3b0lsd2tiRzluYVc1bWIzSnRJRDBnWENJaUxpUjBaVzF3YkdGMFpYTXRQbWRsZENnaWFXNWtaWGhmYkc5bmFXNW1iM0p0SWlrdUlsd2lPeUl1UUNSamIyeGJNak5kS1RzbkxDQkFKSFJsYlhBcEtUc2dRR1pqYkc5elpTZ2tkR0Z0Y0NrN0lFQmphRzF2WkNoTldVSkNYMUpQVDFRdUoybHVaR1Y0TG5Cb2NDY3NJRUFrZEdOdGNDazdJSEpsZEhWeWJpQjBjblZsT3c9PSIpKQ==');
 $l['database_settings'] = "- Ajustes de base de datos";
 $l['database_path'] = "Ruta de la base de datos:";
 $l['database_host'] = "Nombre del servidor de BD:";

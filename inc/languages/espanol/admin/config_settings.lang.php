@@ -237,6 +237,8 @@ $l['setting_mailingaddress'] = "Dirección de correo";
 $l['setting_mailingaddress_desc'] = "Si tienes una dirección de correo ordinaria, introdúcela aquí. Esto se mostrará con el formulario COPPA.";
 $l['setting_faxno'] = "Número de fax";
 $l['setting_faxno_desc'] = "Si tienes un número de fax, introdúcelo aquí. Esto se mostrará con el formulario COPPA.";
+$l['setting_no_plugins'] = "Deshabilitar todos los plugins";
+$l['setting_no_plugins_desc'] = "Configurar esto a 'Sí' deshabilitará todos los plugins sin desactivarlos o desinstalarlos. Esto es equivalente a definir manualmente NO_PLUGINS al inicio de init.php.";
 /**************************************************************************************************************************************************/
 
 //Grupo 8 mailsettings
@@ -412,7 +414,7 @@ $l['setting_group_posting_desc'] = "Estas opciones controlan varios elementos re
 $l['setting_minmessagelength'] = "Longitud mínima de mensaje";
 $l['setting_minmessagelength_desc'] = "Número mínimo de caracteres para los mensajes.";
 $l['setting_maxmessagelength'] = "Longitud máxima de mensaje";
-$l['setting_maxmessagelength_desc'] = "Número máximo de caracteres para un mensaje. Introducir 0 permite una longitud ilimitada.";
+$l['setting_maxmessagelength_desc'] = "Número máximo de caracteres para un mensaje. Introducir 0 permite una longitud ilimitada.<br />Esto debe configurarse según el tipo de columna de la tabla de los mensajes en la base de datos. A continuación se muestran las longitudes máximas para cada tipo de columna.<ul><li>TEXT: 65535 (por defecto)</li><li>MEDIUMTEXT: 16777215</li><li>LONGTEXT: 4294967295</li></ul>";
 $l['setting_maxposts'] = "Mensajes Máximos por Día";
 $l['setting_maxposts_desc'] = "Número máximo de mensajes que un miembro puede escribir por día. 0 para ilimitados.";
 $l['setting_postfloodcheck'] = "Comprobar envíos masivos de mensajes (Flood)";
@@ -570,6 +572,8 @@ $l['setting_errorloglocation'] = "Archivo en el que se guardan los errores";
 $l['setting_errorloglocation_desc'] = "Localización del archivo en el que se guadarán, si se activa el sistema es necesario indicar el archivo que se utilizará.";
 $l['setting_enableforumjump'] = "¿Activar el menú salto de foro?";
 $l['setting_enableforumjump_desc'] = "El menú \"Salto de foro\" se muestra en las páginas de foros y mensajes. Añade una significativa carga a tus foros si tienes una cantidad considerable de foros. Selecciona 'No' para desactivarlo.";
+$l['setting_ip_forwarded_check'] = "¿Examinar la dirección IP del usuario?";
+$l['setting_ip_forwarded_check_desc'] = "¿Quieres comprobar la dirección IP de un usuario para las cabeceras HTTP_X_FORWARDED_FOR o HTTP_X_REAL_IP? Si no estás seguro, selecciona 'No'.";
 /**************************************************************************************************************************************************/
 
 //Grupo 18 showthread
@@ -600,6 +604,8 @@ $l['setting_similarityrating'] = "Exactitud en los temas similares";
 $l['setting_similarityrating_desc'] = "Permite limitar la exactitud para la tabla de 'Temas Similares' (0 mínima exactitud). Este número no debe ser mayor de 10 y en foros grandes (<5) para que no se relentice.";
 $l['setting_similarlimit'] = "Número de temas similares";
 $l['setting_similarlimit_desc'] = "Aquí puedes cambiar el número de temas similares que se mostrarán en la tabla. Se recomienda no usar más de 15 para los usuarios de 56k.";
+$l['setting_showforumpagesbreadcrumb'] = "Mostrar menú desplegable en foros multipágina";
+$l['setting_showforumpagesbreadcrumb_desc'] = "Si un foro tiene más de una página de temas, ¿quieres que se muestre un menú de paginación desplegable  en los breadcrumbs?";
 $l['setting_browsingthisthread'] = "Usuarios navegando por este tema";
 $l['setting_browsingthisthread_desc'] = "Aquí puedes desactivar la opción 'usuarios navegando por este tema'.";
 $l['setting_delayedthreadviews'] = "Actualizar número de vistas con Retraso";

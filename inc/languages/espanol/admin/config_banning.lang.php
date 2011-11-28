@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: config_banning.lang.php 5016 2010-08-11 12:32:33Z Anio_pke $
+ * $Id: config_banning.lang.php 5557 2011-11-28 13:09:33Z Anio_pke $
  */
  
 $l['banning'] = "Suspensiones";
@@ -30,7 +30,7 @@ $l['disallow_username'] = "Deshabilitar nombre";
 $l['add_disallowed_email_address'] = "Deshabilitar una dirección de email";
 $l['email_address_desc'] = "Nota: Para indicar un patrón, usa *";
 $l['disallow_email_address'] = "Deshabilitar email";
-$l['ban_ip_address'] = "Suspender una dirección IP";
+$l['ban_an_ip_address'] = "Suspender una dirección IP";
 $l['ip_address_desc'] = "Nota: Para suspender un rango de direcciones IP usa * (Ej: 127.0.0.*)";
 $l['ban_ip_address'] = "Suspender IP";
 

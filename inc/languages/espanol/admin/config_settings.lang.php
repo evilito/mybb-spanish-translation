@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: config_settings.lang.php 5557 2011-11-28 13:45:05Z Anio_pke $
+ * $Id: config_settings.lang.php 5557 2011-11-28 15:24:05Z Anio_pke $
  */
  
 $l['board_settings'] = "Ajustes del foro";
@@ -161,6 +161,8 @@ $l['setting_browsingthisforum'] = "Usuarios navegando este foro";
 $l['setting_browsingthisforum_desc'] = "Aquí puedes desactivar la característica 'Usuarios navegando este foro'.";
 $l['setting_announcementlimit'] = "Límite de anuncios";
 $l['setting_announcementlimit_desc'] = "Número de anuncios que se mostrán en el foro en la lista de temas. Introduce 0 para desactivar el límite de anuncios.";
+$l['setting_readparentforums'] = "Intentar marcar los foros padre como leídos";
+$l['setting_readparentforums_desc'] = "Cuando se activa esta opción, se intentará marcar los foros padre de un subforo como leído si no hay más mensajes sin leer. Ten en cuenta que esta opción puede disminuir el rendimiento al realizar algunas consultas extras a la base de datos, por lo tanto debes tratarlo como algo experimental. Visita el Wiki de MyBB para obtener más información acerca de este cambio.";
 /**************************************************************************************************************************************************/
 
 // Grupo 6 forumhome
@@ -179,6 +181,8 @@ $l['setting_modlist'] = "Mostrar lista de moderadores";
 $l['setting_modlist_desc'] = "Aquí puedes activar o desactivar la lista de moderadores que se muestra en index.php y en forumdisplay.php";
 $l['setting_showbirthdays'] = "¿Mostrar cumpleaños de hoy?";
 $l['setting_showbirthdays_desc'] = "¿Quieres mostrar los cumpleaños de hoy en la página de inicio del foro?";
+$l['setting_showbirthdayspostlimit'] = "Solo mostrar cumpleaños con x mensajes";
+$l['setting_showbirthdayspostlimit_desc'] = "Puedes elegir que se muestren solo los usuarios que han escrito una cantidad de mensajes. Establecer  0 mostrará a todos los usuarios que cumplan años.";
 $l['setting_showwol'] = "¿Mostrar Quién está en línea?";
 $l['setting_showwol_desc'] = "Muestra los usuarios activos en la página de inicio del foro.";
 $l['setting_showindexstats'] = "¿Mostrar sección de estadísticas sencilla?";
@@ -210,13 +214,20 @@ $l['setting_bblanguage_desc'] = "El idioma por defecto de MyBB para invitados y 
 $l['setting_cookiedomain'] = "Dominio de las cookies";
 $l['setting_cookiedomain_desc'] = "El dominio en el que las cookies se deben establecer. Se puede dejar en blanco. Puedes también iniciar con un . y así cubrir todos los subdominios.";
 $l['setting_cookiepath'] = "Ruta de las cookies";
-$l['setting_cookiepath_desc'] = "Ruta en la que se estableceran las cookies; recomendamos configurarlo para todos tus foros con una barra inclinada '/'.";
+$l['setting_cookiepath_desc'] = "Ruta en la que se estableceran las cookies. Recomendamos configurarlo para todos tus foros con una barra inclinada '/'.";
 $l['setting_cookieprefix'] = "Prefijo para cookie";
 $l['setting_cookieprefix_desc'] = "Añadir un prefijo a las cookies del MyBB. Esto es recomendable cuando deseas instalar múltiples copias de MyBB en un dominio o tienes otro software instalado que podría crear conflictos con los nombres de las cookies de MyBB. Si no se especifica uno, no se usará ningún prefijo.";
 $l['setting_showvernum'] = "Mostrar número de versión";
 $l['setting_showvernum_desc'] = "Te permite deshabilitar el número de versión que se muestra en el MyBB.";
 $l['setting_captchaimage'] = "Imágenes CAPTCHA para registros y publicaciones";
-$l['setting_captchaimage_desc'] = "Si lo activas y la librería GD está instalada, se mostrará una imagen durante el registro y las publicaciones, requiriendo de los usuarios que introduzcan el texto contenido en la imagen para continuar. Esto ayuda a prevenir registros y publicaciones automáticas.";
+$l['setting_captchaimage_desc'] = "Para ayudar a prevenir registros y publicaciones automáticas, puedes elegir un tipo de verificación para el usuario que debe completar. Por favor, visita el Wiki de MyBB para más información sobre los CAPTCHAs";
+$l['setting_captchaimage_0'] = "Sin CAPTCHA";
+$l['setting_captchaimage_1'] = "MyBB CAPTCHA";
+$l['setting_captchaimage_2'] = "reCAPTCHA";
+$l['setting_captchapublickey'] = "Clave pública reCAPTCHA";
+$l['setting_captchapublickey_desc'] = "Tu clave pública reCAPTCHA.";
+$l['setting_captchaprivatekey'] = "Clave privada reCAPTCHA";
+$l['setting_captchaprivatekey_desc'] = "Tu clave privada reCAPTCHA.";
 $l['setting_reportmethod'] = "Método de aviso para mensajes reportados";
 $l['setting_reportmethod_desc'] = "Por favor, selecciona de la lista el método a utilizar. Probablemente guardar en la base de datos sea la mejor opción de las mostradas.";
 $l['setting_reportmethod_db'] = "Guardar en la base de datos";
@@ -306,6 +317,10 @@ $l['setting_failedlogincount'] = "Número de fallos permitidos al iniciar sesió
 $l['setting_failedlogincount_desc'] = "Número de veces que se permite fallar cuando se intenta iniciar sesión. 0 para desactivar.";
 $l['setting_failedlogintime'] = "Tiempo entre fallos al iniciar sesión";
 $l['setting_failedlogintime_desc'] = "Tiempo (En horas) que deben esperar los usuarios para volver a intentar iniciar sesión de nuevo. Solo si la opción de arriba es distinta de 0";
+$l['setting_hiddencaptchaimage'] = "Usar CAPTCHA oculto";
+$l['setting_hiddencaptchaimage_desc'] = "¿Quieres usar un campo CAPTCHA oculto en el proceso de registro? Esto ayuda a prevenir registros de  spambots en tu foro.";
+$l['setting_hiddencaptchaimagefield'] = "Campo CAPTCHA oculto";
+$l['setting_hiddencaptchaimagefield_desc'] = "Aquí puedes elegir un nombre para tu campo CAPTCHA oculto.";
 $l['setting_failedlogintext'] = "Mostrar número de fallos";
 $l['setting_failedlogintext_desc'] = "¿Quieres mostrar una línea de texto al usuario que diga cuántos intentos de inicio de sesión le quedan?";
 $l['setting_usereferrals'] = "Usar recomendantes";
@@ -429,7 +444,7 @@ $l['setting_postmergeuignore_desc'] = "Introduce las ids (fid) de los grupos, se
 $l['setting_postmergesep'] = "Separador del autocombinar";
 $l['setting_postmergesep_desc'] = "El separador que se usará para combinar dos mensajes. Por defecto: '[hr]'";
 $l['setting_logip'] = "Guardar IP de los mensajes";
-$l['setting_logip_desc'] = "Si quieres almacenar las IP desde las que escriben los miembros, y a quién quieres que se muestren esas direcciones IP.";
+$l['setting_logip_desc'] = "¿Quieres almacenar las IP desde las que escriben los miembros, y a quién quieres que se muestren esas direcciones IP?";
 $l['setting_logip_no'] = "No almacenar IPs";
 $l['setting_logip_hide'] = "Mostrar a administradores y moderadores";
 $l['setting_logip_show'] = "Mostrar a todos los usuarios";
@@ -441,8 +456,8 @@ $l['setting_maxpostimages'] = "Número máximo de imágenes por mensaje";
 $l['setting_maxpostimages_desc'] = "Introduce el número máximo de imágenes (incluyendo iconos gestuales) que un miembro puede usar en sus mensajes. 0 para deshabilitar el límite.";
 $l['setting_maxpostvideos'] = "Número máximo de vídeos por mensaje";
 $l['setting_maxpostvideos_desc'] = "Introduce el número máximo de vídeos que un miembro puede usar en sus mensajes. 0 para deshabilitar el límite.";
-$l['setting_subscribeexcerpt'] = "Caracteres para las vistas previas de las suscripciones";
-$l['setting_subscribeexcerpt_desc'] = "Número de caracteres de un mensaje que se enviarán en las notificaciones por email en las suscripciones.";
+$l['setting_subscribeexcerpt'] = "Número de caracteres para las vistas previas de las suscripciones";
+$l['setting_subscribeexcerpt_desc'] = "¿Cuantos caracteres de un mensaje quieres que se envíen en las notificaciones por email en una nueva respuesta?.";
 $l['setting_maxattachments'] = "Número máximo de adjuntos por mensaje";
 $l['setting_maxattachments_desc'] = "Máximo número de archivos adjuntos que se permiten subir con cada mensaje.";
 $l['setting_attachthumbnails'] = "Mostrar miniaturas en los mensajes";
@@ -494,8 +509,12 @@ $l['setting_group_reputation_desc'] = "El sistema de reputación permite a tus u
 //Ajustes
 $l['setting_enablereputation'] = "Activar sistema de reputaciones";
 $l['setting_enablereputation_desc'] = "Si quieres deshabilitar el sistema de reputación en tu foro, selecciona no.";
+$l['setting_posrep'] = "Permitir reputación positiva";
+$l['setting_posrep_desc'] = "¿Permitir a los usuarios dar reputación positiva?";
 $l['setting_negrep'] = "Permitir reputación negativa";
 $l['setting_negrep_desc'] = "¿Permitir a los usuarios dar reputación negativa?";
+$l['setting_neurep'] = "Permitir reputación neutral";
+$l['setting_neurep_desc'] = "¿Permitir a los usuarios dar reputación neutral?";
 $l['setting_multirep'] = "Permitir reputación múltiple";
 $l['setting_multirep_desc'] = "¿Pueden los usuarios dar múltiples reputaciones a un mismo usuario?<br />Nota: Esto no afecta a la reputación de mensaje";
 $l['setting_postrep'] = "Permitir reputación de mensaje";

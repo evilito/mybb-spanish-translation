@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: moderation.lang.php 5016 2010-12-16 12:32:33Z Anio_pke $
+ * $Id: moderation.lang.php 5629 2011-11-28 12:38:33Z Anio_pke $
  */
 
 $l['nav_deletethread'] = "Borrar tema";
@@ -49,6 +49,7 @@ $l['method_move'] = "Mover tema";
 $l['method_move_redirect'] = "Mueve el tema y deja una redirección en el foro existente";
 $l['redirect_expire_note'] = "(Dejar en blanco para 'infinito')";
 $l['method_copy'] = "Copiar tema al nuevo foro";
+$l['split_thread_subject'] = "[dividido]";
 $l['split_thread'] = "Dividir tema";
 $l['new_thread_info'] = "Información del nuevo tema";
 $l['posts_to_split'] = "Mensajes a dividir";
@@ -107,14 +108,12 @@ $l['custom_tool'] = "Herramientas de moderación personalizadas: {1}";
 
 $l['delayed_moderation'] = "Moderación retardada";
 $l['delayed_moderation_desc'] = "Aquí puedes configurar una acción de moderación retardada en los días seleccionados.";
-$l['thread'] = "Tema:";
 $l['threads'] = "Temas:";
 $l['threads_selected'] = "{1} tema(s) seleccionado(s)";
 $l['delay_moderation_for'] = "Moderación retardada:";
 $l['days'] = "día(s)";
 $l['moderation_action'] = "Acción:";
 $l['open_close_thread'] = "Abrir/Cerrar tema";
-$l['merge_threads'] = "Combinar temas";
 $l['remove_redirects'] = "Limpiar redirecciones";
 $l['remove_subscriptions'] = "Eliminar suscripciones";
 $l['approve_unapprove_thread'] = "Aprobar/Rechazar tema";

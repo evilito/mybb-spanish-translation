@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: config_languages.lang.php 5016 2010-08-11 12:32:33Z Anio_pke $
+ * $Id: config_languages.lang.php 5557 2011-11-28 13:10:33Z Anio_pke $
  */
 
 $l['languages'] = "Idiomas";
@@ -17,7 +17,6 @@ $l['quick_phrases_desc'] = "Rápido acceso a frases modificadas comunmente.";
 $l['edit_with'] = "Editar con {1}";
 $l['edit_language_variables'] = "Editar variables de idioma";
 $l['edit_language_variables_desc'] = "Aquí puedes editar las cadenas de los idiomas de tu foro.";
-$l['edit_properties'] = "Editar propiedades";
 $l['edit_properties_desc'] = "Aquí puedes editar las propiedades del paquete de idioma.";
 $l['installed_language_packs'] = "Paquetes de idioma instalados";
 $l['front_end'] = "Interfaz del foro";

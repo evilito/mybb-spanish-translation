@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: espanol.php 5016 2010-12-16 12:28:33Z Anio_pke $
+ * $Id: espanol.php 5641 2011-11-28 13:48:33Z Anio_pke $
  */
 
 // The friendly name of the language
@@ -16,7 +16,7 @@ $langinfo['author'] = "SoporteMyBB";
 $langinfo['website'] = "http://www.soportemybb.com/";
 
 // Compatible version of MyBB
-$langinfo['version'] = "1604";
+$langinfo['version'] = "1605";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;

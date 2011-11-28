@@ -3,9 +3,9 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: warnings.lang.php 5063 2010-08-10 12:32:33Z Anio_pke $
+ * $Id: warnings.lang.php 5557 2011-11-28 12:53:33Z Anio_pke $
  */
-
+ 
 $l['nav_profile'] = "Perfil de {1}";
 $l['nav_warning_log'] = "Historial de advertencias";
 $l['nav_add_warning'] = "Advertir usuario";
@@ -25,7 +25,6 @@ $l['expired_warnings'] = "Advertencias caducadas";
 $l['warning_points'] = "({1} puntos)";
 $l['no_warnings'] = "Este usuario no ha recibido advertencias o se han eliminado todas.";
 $l['warn_user'] = "Advertir usuario";
-$l['warn_user_desc'] = "";
 $l['post'] = "Mensaje:";
 $l['warning_note'] = "Notas administrativas:";
 $l['warning_type'] = "Tipo de advertencia:";
@@ -69,7 +68,6 @@ $l['current_warning_level'] = "Nivel de advertencia actual: <strong>{1}%</strong
 $l['warning_details'] = "Detalles de la advertencia";
 $l['revoke_warning'] = "Revocar esta advertencia";
 $l['revoke_warning_desc'] = "Para revocar esta advertencia introduce una razón. Esto no quitará ningúna suspensión impuesta a este usuario por esta advertencia.";
-$l['reason'] = "Razón:";
 $l['warning_is_revoked'] = "Esta advertencia ha sido revocada";
 $l['revoked_by'] = "Revocada por:";
 $l['date_revoked'] = "Fecha:";

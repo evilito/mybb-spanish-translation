@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: memberlist.lang.php 5016 2010-08-10 12:32:33Z Anio_pke $
+ * $Id: memberlist.lang.php 5557 2011-11-28 12:33:33Z Anio_pke $
  */
 
 $l['nav_memberlist'] = "Lista de miembros";
@@ -29,7 +29,6 @@ $l['sort_by_referrals'] = "Miembros recomendados";
 $l['order_asc'] = "orden ascendente";
 $l['order_desc'] = "orden descendente";
 $l['forumteam'] = "El equipo del foro";
-$L['search'] = "Buscar en la lista de miembros";
 $l['advanced_search'] = "Búsqueda avanzada";
 $l['search_member_list'] = "Buscar en la lista de miembros";
 $l['search_criteria'] = "Criterios de búsqueda";
@@ -43,7 +42,6 @@ $l['search_icq'] = "Número ICQ";
 $l['search_options'] = "Opciones de búsqueda";
 $l['per_page'] = "Resultados por página";
 $l['search'] = "Buscar";
-$l['advanced_search'] = "Búsqueda avanzada";
 
 $l['error_no_members'] = "<p>No se han encontrado miembros con los criterios introducidos.</p><p>Por favor, introduce una búsqueda diferente.</p>";
 

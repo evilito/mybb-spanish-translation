@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: member.lang.php 5016 2010-08-10 12:32:33Z Anio_pke $
+ * $Id: member.lang.php 5636 2011-11-28 12:32:33Z Anio_pke $
  */
 
 $l['nav_register'] = "Registrar";
@@ -111,6 +111,7 @@ $l['birthdayprivacy'] = "Privacidad:";
 $l['birthdayprivacyall'] = "Mostrar la edad y la fecha de nacimiento";
 $l['birthdayprivacynone'] = "Ocultar la edad y la fecha de nacimiento";
 $l['birthdayprivacyage'] = "Mostrar solo la edad";
+$l['leave_this_field_empty'] = "Deje este campo vacío:";
 $l['error_need_to_be_thirteen'] = "Debes tener 13 años o más para registrarte en este foro.";
 $l['coppa_registration'] = "Formulario de registro COPPA";
 $l['coppa_form_instructions'] = "Por favor, imprima este formulario, rellénelo y envíelo por fax al número indicado o por correo.";
@@ -194,6 +195,7 @@ $l['error_bannedusername'] = "El nombre de usuario que has tecleado no se puede 
 $l['error_notloggedout'] = "Tu ID de usuario no pudo ser verificada cuando cerraste sesión. Esto pudo ocurrir porque un script malicioso de javascript trató de cerrar tu sesión automáticamente. Si tú querías cerrar sesión, por favor, haz clic en el enlace de cerrar sesión en el menú principal.";
 $l['error_regimageinvalid'] = "El código de verificación en la imagen fue escrito de manera incorrecta. Por favor, escribe el código exactamente como aparece en la imagen.";
 $l['error_regimagerequired'] = "Por favor, introduce el código de verificación para continuar el proceso de inicio de sesión. Por favor, introduce el código exactamente como aparece en la imagen.";
+$l['error_spam_deny'] = "Nuestros sistemas detectas que puedes ser un spammer por lo tanto se te ha denegado el registro. Si crees que es un error, por favor, contacta con un administrador.";
 
 $l['js_validator_no_username'] = "Debes introducir un nombre de usuario";
 $l['js_validator_invalid_email'] = "Debes introducir un email válido";

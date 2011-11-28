@@ -6,7 +6,7 @@
  * Website: http://mybb.com
  * License: http://mybb.com/about/license
  *
- * $Id: mysql_db_inserts.php 5125 2010-08-12 22:50:33Z Anio_pke $
+ * $Id: mysql_db_inserts.php 5616 2011-11-28 13:56:33Z Anio_pke $
  */
 
 $inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (1, 'Archivo ZIP', 'application/zip', 'zip', 1024, 'images/attachtypes/zip.gif');";
@@ -67,9 +67,9 @@ $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(18, 'Dedo abajo', 
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(19, 'Dedo arriba', 'images/icons/thumbsup.gif');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(20, 'Video', 'images/icons/video.gif');";
 
-$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, length, maxlength, required, editable, hidden) VALUES (1, 'Localización', '¿En que parte del mundo vives', 1, 'text', 0, 255, 0, 1, 0);";
-$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, length, maxlength, required, editable, hidden) VALUES (2, 'Biografía', 'Introduce una breve descripción sobre ti, la historia de tu vida etc.', 2, 'textarea', 0, 0, 0, 1, 0);";
-$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, length, maxlength, required, editable, hidden) VALUES (3, 'Sexo', 'Por favor selecciona tu sexo de la lista de abajo.', 0, 'select\nSin seleccionar\nHombre\nMujer\nOtro', 0, 0, 0, 1, 0);";
+$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, length, maxlength, required, editable, hidden, postnum) VALUES (1, 'Localización', '¿En que parte del mundo vives', 1, 'text', 0, 255, 0, 1, 0, 0);";
+$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, length, maxlength, required, editable, hidden, postnum) VALUES (2, 'Biografía', 'Introduce una breve descripción sobre ti, la historia de tu vida etc.', 2, 'textarea', 0, 0, 0, 1, 0, 0);";
+$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, length, maxlength, required, editable, hidden, postnum) VALUES (3, 'Sexo', 'Por favor selecciona tu sexo de la lista de abajo.', 0, 'select\nSin seleccionar\nHombre\nMujer\nOtro', 0, 0, 0, 1, 0, 0);";
 
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(1, 'Sonrisa', ':)', 'images/smilies/smile.gif', 1, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(2, 'Guiño', ';)', 'images/smilies/wink.gif', 2, 1);";
@@ -101,7 +101,6 @@ $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Internet Archiv
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Alexa Internet','ia_archiver');";
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Bing','msnbot');";
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Yahoo!','Slurp');";
-$inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Cuil','twiceler');";
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Baidu','Baiduspider');";
 
 $inserts[] = "INSERT INTO mybb_templategroups (gid,prefix,title) VALUES ('1','calendar','<lang:group_calendar>');";

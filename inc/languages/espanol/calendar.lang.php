@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: calendar.lang.php 5016 2010-08-10 12:32:33Z Anio_pke $
+ * $Id: calendar.lang.php 5557 2011-11-28 12:22:33Z Anio_pke $
  */
 
 $l['nav_calendar'] = "Calendario";
@@ -110,7 +110,6 @@ $l['day_or_days'] = "día(s)";
 $l['week_or_weeks_on'] = "semana(s) el";
 $l['repeats_monthly'] = "Mensualmente";
 $l['repeats_yearly'] = "Anualmente";
-$l['repeats_every'] = "Repetir";
 $l['repeats_on_day'] = "Repetir el día";
 $l['of_every'] = "durante";
 $l['month_or_months'] = "mes(es)";

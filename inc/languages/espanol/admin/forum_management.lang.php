@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: forum_management.lang.php 5137 2010-12-16 18:11:33Z Anio_pke $
+ * $Id: forum_management.lang.php 5557 2011-11-28 13:18:33Z Anio_pke $
  */
 
 $l['forum_management'] = "Configurar foro";
@@ -30,11 +30,9 @@ $l['manage_forums'] = "Foros";
 $l['forum'] = "Foro";
 $l['order'] = "Orden";
 
-$l['edit_forum'] = "Editar foro";
 $l['subforums'] = "Subforos";
 $l['moderators'] = "Moderadores";
 $l['permissions'] = "Permisos";
-$l['add_child_forum'] = "Agregar subforo";
 $l['delete_forum'] = "Eliminar foro";
 
 $l['sub_forums'] = "Subforos";
@@ -102,7 +100,6 @@ $l['confirm_clear_custom_permission'] = "¿Estás seguro de querer eliminar este
 
 $l['forum_type'] = "Tipo de foro";
 $l['forum_type_desc'] = "Selecciona el tipo de foro que estás creando - un foro en el que puedes escribir o una categoría para contener otros foros.";
-$l['forum'] = "Foro";
 $l['category'] = "Categoría";
 $l['title'] = "Título";
 $l['description'] = "Descripción";

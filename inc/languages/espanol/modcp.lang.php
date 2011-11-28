@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: modcp.lang.php 5113 2010-08-10 12:32:33Z Anio_pke $
+ * $Id: modcp.lang.php 5557 2011-11-28 12:35:33Z Anio_pke $
  */
 
 $l['nav_width'] = "180";
@@ -78,7 +78,6 @@ $l['options'] = "Opciones:";
 $l['find'] = "Buscar";
 $l['modlogs'] = "Historial de moderación";
 $l['action'] = "Acción";
-$l['username'] = "Nombre de usuario";
 $l['all_moderators'] = "Todos los moderadores";
 $l['date'] = "Fecha";
 $l['ip'] = "Dirección IP";
@@ -93,7 +92,6 @@ $l['forum_name'] = "Nombre del foro";
 $l['thread_subject'] = "Título del tema";
 $l['in'] = "en orden";
 $l['order'] = "";
-$l['thread'] = "Tema:";
 $l['asc'] = "Ascendente";
 $l['desc'] = "Descendente";
 $l['per_page'] = "Resultados por página:";
@@ -107,7 +105,6 @@ $l['postnum'] = "Mensajes";
 $l['username_contains'] = "El nombre contiene";
 $l['no_user_results'] = "No se han encontrado usuarios con los criterios de búsqueda especificados.";
 $l['edit_profile'] = "Editar perfil de {1}";
-$l['usergroup'] = "Grupo de usuarios:";
 $l['birthday'] = "Fecha de nacimiento:";
 $l['title'] = "Título de usuario:";
 $l['profile_required'] = "Campos obligatorios";
@@ -138,7 +135,6 @@ $l['mod_queue'] = "Cola de moderación";
 $l['approve'] = "Aceptar";
 $l['ignore'] = "Ignorar";
 $l['perform_actions'] = "Acciones";
-$l['subject'] = "Título";
 $l['author'] = "Autor";
 $l['threads'] = "Temas";
 $l['posts'] = "Mensajes";

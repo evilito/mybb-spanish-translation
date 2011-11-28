@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_maillogs.lang.php 5016 2010-08-12 12:32:33Z Anio_pke $
+ * $Id: tools_maillogs.lang.php 5557 2011-11-28 13:26:33Z Anio_pke $
  */
 
 $l['user_email_log'] = "Historial de emails de usuarios";
@@ -31,7 +31,6 @@ $l['filter_user_email_log'] = "Filtrar historiales";
 $l['username_is'] = "El nombre de usuario es";
 $l['email_contains'] = "La dirección de email contiene";
 $l['subject_contains'] = "El título contiene";
-$l['from'] = "Desde";
 $l['find_emails_to_user'] = "Buscar todos los emails enviados a este usuario"; 
 
 $l['error_invalid_user'] = "El nombre de usuario introducido no existe.";

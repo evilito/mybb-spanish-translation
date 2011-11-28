@@ -124,7 +124,7 @@ $l['setting_cpstyle_desc'] = "Estilo por defecto para el panel de control. Los e
 $l['setting_maxloginattempts'] = "Número máximo de intentos de inicio de sesión";
 $l['setting_maxloginattempts_desc'] = "El número máximo de intentos para iniciar sesión antes de bloquearlo. Establece 0 para desactivar.";
 $l['setting_loginattemptstimeout'] = "Tiempo de espera tras fallar el número máximo de intentos";
-$l['setting_loginattemptstimeout_desc'] = "Si la persona revasa el número máximo de intentos para iniciar sesión, ¿Cuanto tiempo tiene que esperar antes de poder intentarlo de nuevo? (En minutos)";
+$l['setting_loginattemptstimeout_desc'] = "Si la persona excede el número máximo de intentos para iniciar sesión, ¿Cuanto tiempo tiene que esperar antes de poder intentarlo de nuevo? (En minutos)";
 /**************************************************************************************************************************************************/
 
 // Grupo 4 datetime

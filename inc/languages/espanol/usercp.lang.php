@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: usercp.lang.php 5068 2011-07-31 21:52:19Z evilito $
+ * $Id: usercp.lang.php 5616 2011-11-28 12:52:19Z Anio_pke $
  */
 
 $l['nav_usercp'] = "Panel de control del usuario";
@@ -76,7 +76,6 @@ $l['users_already_on_buddy_list_alt'] = "Uno o más usuarios de los que has agre
 $l['invalid_user_selected'] = "Uno o más usuarios seleccionados no existen.";
 $l['ignore_list_empty'] = "Tu lista de ignorados esta vacía. Para añadir uno o mas usuarios usa el campo de arriba.";
 $l['buddy_list_empty'] = "Tu lista de amigos esta vacía. Para añadir uno o mas usuarios usa el campo de arriba.";
-$l['edit_lists'] = "Editar listas de amigos e ignorados";
 $l['confirm_remove_buddy'] = "¿Eliminar este usuario de tu lista de amigos?";
 $l['confirm_remove_ignored'] = "¿Eliminar este usuario de tu lista de ignorados?";
 $l['adding_buddy'] = "Añadiendo amigo..";
@@ -106,6 +105,10 @@ $l['update_sig'] = "Actualizar firma";
 $l['preview'] = "Vista previa de la firma";
 $l['current_sig'] = "Tu firma actual";
 $l['sig_preview'] = "Vista previa de la firma";
+
+$l['sig_suspended'] = "La posibilidad de agregar una firma ha sido suspendida.";
+$l['sig_suspended_posts'] = "Debes tener al menos {1} mensajes para poder agregar una firma.";
+
 $l['change_email' ] = "Cambiar dirección de email";
 $l['enter_password'] = "Escribe tu contraseña";
 $l['please_enter_confirm_new_email'] = "Por favor, escribe y confirma tu nueva dirección de email";
@@ -220,12 +223,9 @@ $l['return_date'] = "Fecha de regreso:";
 $l['return_date_desc'] = "Si sabes cuándo regresarás, puedes escribir la fecha de regreso aquí.";
 $l['subscriptions'] = "Suscripciones a los temas";
 $l['remove_all_subscriptions'] = "Quitar todas las suscripciones";
-$l['unsubscribe'] = "Borrar suscripción";
 $l['no_thread_subscriptions'] = "Actualmente no estás suscrito a ningún tema.<p>Para suscribirte a un tema:</p><ol><li>Navega al tema que deseas suscribirte.</li><li>Haz clic en el enlace 'Suscribirse a este tema' en la parte de abajo de la página.</li></ol>";
 $l['no_forum_subscriptions'] = "Actualmente no estás suscrito a ningún foro.<p>Para suscribirte a algún foro:</p><ol><li>Ve al foro al que te quieras suscribir.</li><li>Haz clic en el enlace 'Suscribirse a este foro' ubicado al principio de la lista de temas en dicho foro.</li></ol>";
 $l['no_drafts'] = "No tienes ningún tema ni mensaje guardado como borrador.<p>Para guardar como borrador un tema o un mensaje:</p><ol><li>Procede normalmente a las páginas de mensaje para crear un tema o responder uno existente.</li><li>Rellena los campos de la página de creación de mensaje.</li><li>Pulsa el botón 'Guardar como borrador' debajo del área del mensaje.</li></ol>";
-$l['thread'] = "Tema:";
-$l['forum'] = "Foro:";
 $l['drafts'] = "Borradores guardados";
 $l['draft_saved'] = "Guardado";
 $l['edit_draft'] = "Editar borrador";
@@ -244,7 +244,6 @@ $l['not_member_of_group'] = "Lo sentimos, pero no podemos ejecutar esa acción y
 $l['cannot_set_displaygroup'] = "Este grupo no puede ser establecido como grupo a mostrar.";
 $l['display_group_changed'] = "Tu grupo a mostrar ha sido actualizado.<br />Ahora serás llevado de regreso a la página de membresías de grupo.";
 $l['usergroups_memberof'] = "Grupos de los que actualmente eres miembro";
-$l['usergroup'] = "Grupo de usuario";
 $l['usertitle'] = "Título de usuario";
 $l['usergroup_leave'] = "Dejar grupo";
 $l['usergroup_leave_primary'] = "(No puedes dejar a tu grupo primario)";

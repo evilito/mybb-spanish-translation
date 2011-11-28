@@ -31,7 +31,7 @@ $l['verification_note'] = "Escribe el texto contenido en la imagen en el campo q
 $l['verification_subnote'] = "(No distingue MAYÚSC/minúsc)";
 $l['invalid_captcha'] = "El código de verificación en la imagen fue escrito de manera incorrecta. Por favor escribe el código exactamente como aparece en la imagen.";
 $l['error_post_already_submitted'] = "Ya has publicado este tema en este foro. Por favor, visita el foro para ver tu tema.";
-$l['no_prefix'] = "Sin prefijo";
+$l['no_prefix'] = "Sin prefijo"; 
 
 $l['multiquote_external_one'] = "Has seleccionado un mensaje fuera de este tema.";
 $l['multiquote_external'] = "Has seleccionado {1} mensajes fuera de este tema.";

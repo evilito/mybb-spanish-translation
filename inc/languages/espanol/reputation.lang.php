@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: reputation.lang.php 5049 2011-07-31 21:50:00Z evilito $
+ * $Id: reputation.lang.php 5593 2011-11-28 12:49:00Z Anio_pke $
  */
 
 $l['nav_reputation'] = "Detalles de la reputación";
@@ -23,6 +23,9 @@ $l['add_maxperthread'] = "Ya has dado a este usuario todas las reputaciones (en 
 $l['add_no_comment'] = "Debes introducir un comentario de al menos 10 caracteres para dar una reputación a este usuario.";
 $l['add_toolong'] = "Debes introducir una razón que no tenga más de {1} caracteres.";
 $l['add_negative_disabled'] = "El administrador ha desactivado las reputaciones negativas.";
+$l['add_neutral_disabled'] = "El administrador ha desactivado las reputaciones neutrales.";
+$l['add_positive_disabled'] = "El administrador ha desactivado las reputaciones positivas.";
+$l['add_all_rep_disabled'] = "El administrador ha desactivado todas las reputaciones. No puedes dar reputación a este usuario.";
 $l['reputation_report'] = "Reputación de {1}";
 $l['reputation_members'] = "Reputacion de miembros:";
 $l['reputation_posts'] = "Reputaciones de mensajes:";
@@ -41,6 +44,8 @@ $l['go_back'] = "Volver";
 $l['add_reputation_vote'] = "Dar un voto de reputación a {1}";
 $l['add_reputation_to_post'] = "Esta reputación es para un mensaje de {1}.<br />";
 $l['neg_rep_disabled'] = "<span class=\"smalltext\">* - <em>Las reputaciones negativas están desactivadas</em></span>";
+$l['pos_rep_disabled'] = "<span class=\"smalltext\">* - <em>Las reputaciones postivas están desactivadas</em></span>";
+$l['neu_rep_disabled'] = "<span class=\"smalltext\">* - <em>Las reputaciones neutrales están desactivadas</em></span>";
 $l['no_comment_needed'] = "Estás agregando reputación a un mensaje. Si ya habías agregado reputación a este mensaje, podrás eliminarla o editar el comentario. No es necesario un comentario, pero si quieres dejar uno, por favor introdúcelo debajo.<br />";
 $l['no_comment'] = "[Sin comentario]";
 $l['vote_added'] = "Reputación añadida";

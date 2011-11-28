@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_modlog.lang.php 5016 2010-08-12 12:32:33Z Anio_pke $
+ * $Id: tools_modlog.lang.php 5557 2011-11-28 13:28:33Z Anio_pke $
  */
 
 
@@ -26,15 +26,12 @@ $l['post'] = "Mensaje:";
 $l['user_info'] = "Usuario:";
 
 $l['filter_moderator_logs'] = "Filtrar historial de moderación";
-$l['forum'] = "Foro:";
 $l['forum_moderator'] = "Moderador:";
 $l['sort_by'] = "Ordenar por:";
 $l['results_per_page'] = "Resultados por página:";
 $l['all_moderators'] = "Todos los moderadores";
 $l['older_than'] = "Más antíguas de ";
 
-$l['date'] = "Fecha";
-$l['username'] = "Usuario";
 $l['forum_name'] = "Foro";
 $l['thread_subject'] = "Título del tema";
 

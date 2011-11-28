@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_adminlog.lang.php 5016 2010-08-12 12:32:33Z Anio_pke $
+ * $Id: tools_adminlog.lang.php 5557 2011-11-28 13:25:33Z Anio_pke $
  */
 
 
@@ -109,7 +109,6 @@ $l['admin_log_config_settings_edit'] = "Editar ajuste #{1} ({2}) ";
 $l['admin_log_config_settings_delete'] = "Eliminar ajuste #{1} ({2})";
 $l['admin_log_config_settings_manage'] = "Actualizar orden de ajustes y grupo de ajustes";
 $l['admin_log_config_settings_change'] = "Cambiar ajustes del foro";
-$l['admin_log_config_settings_delete_duplicates'] = "Eliminar cualquier ajuste duplicado.";
 
 $l['admin_log_config_smilies_add'] = "Agregar icono gestual #{1} ({2})";
 $l['admin_log_config_smilies_edit'] = "Editar icono gestual #{1} ({2})";

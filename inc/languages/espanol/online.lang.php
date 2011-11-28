@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: online.lang.php 5017 2011-07-31 21:40:34Z evilito $
+ * $Id: online.lang.php 5635 2011-11-28 12:44:34Z Anio_pke $
  */
 
 $l['nav_online'] = "Quién está en línea";
@@ -73,7 +73,8 @@ $l['user_cp'] = "Viendo el <a href=\"usercp.php\">panel de control del usuario</
 $l['viewing_portal'] = "Viendo la página <a href=\"portal.php\">portal</a>";
 $l['viewing_noperms'] = "Viendo página de sin permisos";
 $l['unknown_location'] = "<a href=\"{1}\">Ubicación desconocida</a>";
-$l['giving_reputation'] = "Dando reputación";
+$l['giving_reputation'] = "Dando reputación a <a href=\"{1}\">{2}</a>";
+$l['viewing_reputation_report'] = "Viendo la reputación de <a href=\"{1}\">{2}</a>";
 $l['member_resendactivation'] = "Reenviando email de activación de cuenta";
 $l['member_lostpw'] = "Recuperando <a href=\"member.php?action=lostpw\">contraseña perdida</a>";
 $l['sending_thread'] = "Enviando tema a un amigo";
@@ -103,6 +104,8 @@ $l['search_postip_users'] = "Buscar usuarios que hayan publicado con esta IP";
 $l['lookup'] = "[ver]";
 $l['member_online_today'] = "<strong>1</strong> miembro estuvo en línea el día de hoy";
 $l['members_were_online_today'] = "<strong>{1}</strong> miembros estuvieron en línea el día de hoy";
+$l['member_online_hidden'] = " ({1} miembro invisible)";
+$l['members_online_hidden'] = " ({1} miembros invisibles)";
 $l['rating_thread'] = "Calificar tema";
 $l['viewing_imcenter'] = "Viendo centro IM";
 $l['managing_favorites'] = "Usando temas favoritos";

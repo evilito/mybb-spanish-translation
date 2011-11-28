@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: user_users.lang.php 5017 2011-07-31 21:04:44Z evilito $
+ * $Id: user_users.lang.php 5595 2011-11-28 13:42:44Z Anio_pke $
  */
 
 $l['users'] = "Usuarios";
@@ -330,9 +330,12 @@ $l['less_than'] = "Menor que";
 $l['post_count_is'] = "El número de mensajes es";
 $l['reg_ip_matches'] = "La IP de registro coincide con";
 $l['wildcard'] = "* denota cualquier cadena";
-$l['last_known_ip'] = "Última IP conocida";
 $l['posted_with_ip'] = "Ha escrito desde la IP que coincide con";
 $l['custom_profile_fields_match'] = "El campo personalizado coincide...";
+$l['is_not_blank'] = " no está vacío";
+$l['or'] = "o";
+$l['reg_in_x_days'] = "Registrado en los últimos";
+$l['days'] = "días";
 
 $l['view'] = "Vista";
 $l['create_new_view'] = "Crear vista";

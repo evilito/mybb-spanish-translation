@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: private.lang.php 5016 2010-08-10 12:32:33Z Anio_pke $
+ * $Id: private.lang.php 5608 2011-11-28 12:45:33Z Anio_pke $
  */
 
 $l['nav_pms'] = "Mensaje privado";
@@ -24,7 +24,7 @@ $l['pms_disabled'] = "No puedes usar los mensajes privados porque un administrad
 
 $l['private_messaging'] = "Mensajes privados";
 $l['inbox'] = "Bandeja de entrada";
-$l['compose_message'] = "Redactar mensaje";
+$l['compose_message2'] = "Redactar mensaje";
 $l['manage_folders'] = "Editar carpetas";
 $l['pms_in_folder'] = "Mensajes privados en carpeta <em>{1}</em>";
 $l['pm_search_results'] = "Resultados de la búsqueda de mensajes privados";
@@ -92,7 +92,6 @@ $l['compose_bcc_show_title'] = "Mostrar BCC permite enviar copias del mensaje a 
 $l['separate_names'] = "Separar múltiples usuarios con comas.";
 $l['max_recipients'] = "<br />Puedes enviar este mensaje a un máximo de <strong>{1}</strong> personas.";
 $l['compose_subject'] = "Título:";
-$l['compose_message2'] = "Redactar mensaje";
 $l['compose_message'] = "Mensaje:";
 $l['compose_options'] = "Opciones:";
 $l['options_sig'] = "<strong>Firma:</strong> Incluir tu firma en este mensaje.";

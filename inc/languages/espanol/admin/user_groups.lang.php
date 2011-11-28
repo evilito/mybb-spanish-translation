@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: user_groups.lang.php 5016 2010-08-12 12:32:33Z Anio_pke $
+ * $Id: user_groups.lang.php 5616 2011-11-28 13:38:33Z Anio_pke $
  */
 
 $l['user_groups'] = "Grupos de usuarios";
@@ -62,7 +62,6 @@ $l['copy_permissions_from'] = "Copiar permisos de...";
 $l['copy_permissions_from_desc'] = "Si quieres se pueden copiar los permisos de otro grupo. Para hacerlo sólo tienes que seleccionar el grupo del que quieres copiar los permisos.";
 $l['save_user_group'] = "Guardar grupo";
 $l['list_users'] = "Listar usuarios";
-$l['group_leaders'] = "Líderes de grupo";
 
 $l['general'] = "General";
 $l['forums_posts'] = "Foros y mensajes";
@@ -113,11 +112,17 @@ $l['can_access_usercp'] = "¿Puede acceder al panel de control del usuario?";
 $l['can_change_username'] = "¿Puede cambiar su nombre de usuario?";
 $l['can_use_usertitles'] = "¿Puede usar títulos de usuario personalizados?";
 $l['can_upload_avatars'] = "¿Puede subir avatares?";
+$l['can_use_signature'] = "¿Puede agregar una firma?";
+$l['can_use_signature_posts'] = "¿Puede agregar una firma tras x mensajes?";
+$l['required_posts'] = "Mensajes necesarios para agregar una firma:";
+$l['required_posts_desc'] = "Aquí puedes introducir el número mínimo de mensajes que un usuario debe tener antes de poder agregar una firma.";
+$l['uses_no_follow'] = "¿Los enlaces de las firmas tienen 'nofollow' activado?";
 $l['reputation_system'] = "Sistema de reputación";
 $l['can_use_pms'] = "¿Puede usar la mensajería privada?";
 $l['can_send_pms'] = "¿Puede enviar mensajes privados?";
 $l['can_track_pms'] = "¿Puede rastrear mensajes privados?";
 $l['can_deny_reciept'] = "¿Puede denegar recibir notificaciones?";
+$l['can_override_pms'] = "¿Puede enviar mensajes privados aunque el destinatario los tenga desactivados?";
 $l['message_quota'] = "Cuota:";
 $l['message_quota_desc'] = "Máximo número de mensajes privados que pueden almacenar los usuarios de este grupo. Si está vacío, los usuarios podrán almacenar ilimitados mensajes.";
 $l['max_recipients'] = "Máximos destinatarios por mensaje:";
@@ -147,6 +152,7 @@ $l['can_view_whos_online'] = "¿Puede ver 'Quién está en línea'?";
 $l['can_view_invisible'] = "¿Puede ver usuarios invisibles?";
 $l['can_view_ips'] = "¿Puede ver direcciones IP en 'Quién está en línea'?";
 $l['can_view_member_list'] = "¿Puede ver la lista de miembros?";
+$l['show_in_birthday_list'] = "¿Puede mostrarse en la lista de cumpleaños?";
 $l['can_email_users'] = "¿Puede enviar temas a sus amigos y enviar emails a los usuarios?";
 $l['max_emails_per_day'] = "Máximos emails al día:";
 $l['max_emails_per_day_desc'] = "Máximo número de emails que los usuarios pueden enviar usando las funciones 'Enviar email' y 'Enviar tema a un amigo'.";

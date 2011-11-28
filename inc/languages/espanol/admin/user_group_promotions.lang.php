@@ -1,9 +1,9 @@
 <?php
 /**
  * MyBB 1.6 Spanish Language Pack
- * Copyright � 2010 MyBB Group, All Rights Reserved
+ * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: user_group_promotions.lang.php 4941 2010-08-12 12:32:33Z Anio_pke $
+ * $Id: user_group_promotions.lang.php 5557 2011-11-28 13:30:33Z Anio_pke $
  */
 
 $l['user_group_promotions'] = "Promociones de grupo";
@@ -30,14 +30,12 @@ $l['reputation_count'] = "Reputación";
 $l['reputation_count_desc'] = "Introduce la cantidad de reputación requerida. Si seleccionas Reputación, debes introducir un valor válido. Selecciona el tipo de comparación para la reputación.";
 $l['referral_count'] = "Recomendados";
 $l['referral_count_desc'] = "Introduce la cantidad de recomendados requerida. Si seleccionas recomendados, debes introducir un valor válido. Selecciona el tipo de comparación para los recomendados.";
-$l['post_count'] = "Mensajes";
 $l['post_count_desc'] = "Introduce la cantidad de mensajes requerida. Si seleccionas número de mensajes, debes introducir un valor válido. Selecciona el tipo de comparación para los mensajes.";
 $l['hours'] = "Horas";
 $l['days'] = "Días";
 $l['weeks'] = "Semanas";
 $l['months'] = "Meses";
 $l['years'] = "Años";
-$l['time_registered'] = "Tiempo registrado";
 $l['time_registered_desc'] = "Introduce el número de horas, días, semanas, meses o años que debe llevar el usuario registrado. Si seleccionas tiempo registrado, debes introducir un valor válido. Selecciona como debe contarse el tiempo (horas, días, semanas, meses o años).";
 $l['all_user_groups'] = 'Todos los grupos';
 $l['orig_user_group'] = 'Grupo de usuario original';
@@ -58,7 +56,6 @@ $l['time_promoted'] = "Fecha promoción";
 $l['no_promotion_logs'] = "Actualmente no hay promociones en el historial.";
 $l['promotion_manager'] = "Promociones";
 $l['promotion'] = "Promoción";
-$l['edit_promotion'] = "Editar promoción";
 $l['disable_promotion'] = "Desactivar promoción";
 $l['enable_promotion'] = "Activar promoción";
 $l['delete_promotion'] = "Eliminar promoción";

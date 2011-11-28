@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: global.lang.php 5016 2010-08-12 12:32:33Z Anio_pke $
+ * $Id: global.lang.php 5583 2011-11-28 13:20:33Z Anio_pke $
  */
  
 $l['today'] = "Hoy";
@@ -113,7 +113,6 @@ $l['next'] = "Siguiente";
 $l['delete'] = "Eliminar";
 $l['reset'] = "Restablecer";
 $l['and'] = "y";
-$l['go'] = "Ir";
 $l['on'] = "On";
 $l['off'] = "Off";
 
@@ -221,7 +220,6 @@ $l['editor_enter_email_title'] = "Opcionalmente, puedes introducir un título pa
 $l['editor_enter_image'] = "Por favor, introduce la URL remota de la imagen que deseas insertar.";
 $l['editor_enter_video_url'] = "Por favor, introduce la URL del video.";
 $l['editor_video_dailymotion'] = "Dailymotion";
-$l['editor_video_googlevideo'] = "Google Video";
 $l['editor_video_metacafe'] = "MetaCafe";
 $l['editor_video_myspacetv'] = "MySpace TV";
 $l['editor_video_vimeo'] = "Vimeo";

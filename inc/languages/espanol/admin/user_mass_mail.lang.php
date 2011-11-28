@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: user_mass_mail.lang.php 5016 2010-08-12 12:32:33Z Anio_pke $
+ * $Id: user_mass_mail.lang.php 5557 2011-11-28 13:40:33Z Anio_pke $
  */
 
 $l['mass_mail'] = "Envíos masivos";
@@ -79,9 +79,7 @@ $l['review_text_version_desc'] = "Por favor, revisa la versión de texto generad
 
 $l['step_one'] = "Paso 1";
 
-$l['subject'] = "Asunto";
 $l['status'] = "Estado";
-$l['delivery_date'] = "Fecha de envío";
 $l['recipients'] = "Destinatarios";
 $l['delivered'] = "Enviado";
 $l['canceled'] = "Cancelado";

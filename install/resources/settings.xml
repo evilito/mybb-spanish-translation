@@ -232,6 +232,15 @@
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
+		<setting name="readparentforums">
+			<title>Attempt to Mark Parent Forums as Read</title>
+			<description><![CDATA[When set to yes, this setting will attempt to mark the parent forums of a sub-forum as read if there are no more unread posts. Please note that this setting can lead to a decrease in performance and multiple database queries and therefore must be treated as experimental. See the <a href="http://wiki.mybb.com/index.php/1.6.5">MyBB Wiki</a> for more information regarding this change.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
 	</settinggroup>
 	<settinggroup name="forumhome" title="Forum Home Options" description="This section allows you to manage the various settings used on the forum home (index.php) of your boards such as enabling and disabling different features." disporder="5" isdefault="1">
 		<setting name="showdescriptions">
@@ -288,10 +297,19 @@
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
+		<setting name="showbirthdayspostlimit">
+			<title>Only Show Birthdays with x Posts</title>
+			<description><![CDATA[You can choose to only display users with at least the following amount of posts. A setting of 0 will show all users who have a birthday today.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
 		<setting name="showwol">
 			<title>Show Who's Online?</title>
 			<description><![CDATA[Display the currently active users on the forum home page.]]></description>
-			<disporder>7</disporder>
+			<disporder>8</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -300,7 +318,7 @@
 		<setting name="showindexstats">
 			<title>Show Small Stats Section</title>
 			<description><![CDATA[Do you want to show the total number of threads, posts, members, and the last member on the forum home?]]></description>
-			<disporder>8</disporder>
+			<disporder>9</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -309,7 +327,7 @@
 		<setting name="showforumviewing">
 			<title>Show x viewing forum</title>
 			<description><![CDATA[Displays the currently active users viewing each forum.]]></description>
-			<disporder>9</disporder>
+			<disporder>10</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -400,7 +418,7 @@
 		</setting>
 		<setting name="cookiepath">
 			<title>Cookie Path</title>
-			<description><![CDATA[The path which cookies are set to, we recommend setting this to the full directory path to your forums with a trailing slash.]]></description>
+			<description><![CDATA[The path which cookies are set to. We recommend setting this to the full directory path to your forums with a trailing slash.]]></description>
 			<disporder>10</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[/]]></settingvalue>
@@ -427,17 +445,38 @@
 		</setting>
 		<setting name="captchaimage">
 			<title><![CDATA[CAPTCHA Images for Registration & Posting]]></title>
-			<description><![CDATA[If yes, and GD is installed, an image will be shown during registration and posting where users are required to enter the text contained within the image to continue. This helps prevent automated registrations and postings.]]></description>
+			<description><![CDATA[To help prevent automated registrations and postings, you can choose a type of image verification for the user to complete. Please see the MyBB Wiki for more information on CAPTCHAs.]]></description>
 			<disporder>12</disporder>
-			<optionscode><![CDATA[onoff]]></optionscode>
+			<optionscode><![CDATA[select
+0=No CAPTCHA
+1=MyBB Default CAPTCHA
+2=reCAPTCHA]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="captchapublickey">
+			<title><![CDATA[reCAPTCHA Public Key]]></title>
+			<description><![CDATA[Your reCAPTCHA public key.]]></description>
+			<disporder>14</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="captchaprivatekey">
+			<title><![CDATA[reCAPTCHA Private Key]]></title>
+			<description><![CDATA[Your reCAPTCHA private key.]]></description>
+			<disporder>15</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
 		<setting name="reportmethod">
 			<title>Reported Posts Medium</title>
 			<description><![CDATA[Please select from the list how you want reported posts to be dealt with. Storing them in the database is probably the better of the options listed.]]></description>
-			<disporder>13</disporder>
+			<disporder>16</disporder>
 			<optionscode><![CDATA[radio
 db=Stored in the Database
 pms=Sent as Private Messages
@@ -449,7 +488,7 @@ email=Sent via Email]]></optionscode>
 		<setting name="statslimit">
 			<title>Stats Limit</title>
 			<description><![CDATA[The number of threads to show on the stats page for most replies and most views.]]></description>
-			<disporder>14</disporder>
+			<disporder>17</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[15]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -458,7 +497,7 @@ email=Sent via Email]]></optionscode>
 		<setting name="decpoint">
 			<title>Decimal Point</title>
 			<description><![CDATA[The decimal point you use in your region.]]></description>
-			<disporder>15</disporder>
+			<disporder>18</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[.]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -466,8 +505,8 @@ email=Sent via Email]]></optionscode>
 		</setting>
 		<setting name="thousandssep">
 			<title>Thousands Numeric Separator</title>
-			<description><![CDATA[The punctuation you want to use .  (for example, the setting ',' with the number 1200 will give you a number such as 1,200)]]></description>
-			<disporder>16</disporder>
+			<description><![CDATA[The punctuation you want to use. For example, a setting of ',' with the number 1200 will give you 1,200.]]></description>
+			<disporder>19</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[,]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -476,7 +515,7 @@ email=Sent via Email]]></optionscode>
 		<setting name="showlanguageselect">
 			<title>Show Language Selector in Footer</title>
 			<description><![CDATA[Set to no if you do not want to show the language selection area in the footer of all pages in the board.]]></description>
-			<disporder>17</disporder>
+			<disporder>20</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -485,7 +524,7 @@ email=Sent via Email]]></optionscode>
 		<setting name="maxmultipagelinks">
 			<title>Maximum Page Links in Pagination</title>
 			<description><![CDATA[Here you can set the number of next and previous page links to show in the pagination for threads or forums with more than one page of results.]]></description>
-			<disporder>18</disporder>
+			<disporder>21</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[5]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -494,7 +533,7 @@ email=Sent via Email]]></optionscode>
 		<setting name="mailingaddress">
 			<title>Mailing Address</title>
 			<description><![CDATA[If you have a mailing address, enter it here. This is shown on the COPPA compliance form.]]></description>
-			<disporder>19</disporder>
+			<disporder>22</disporder>
 			<optionscode><![CDATA[textarea]]></optionscode>
 			<settingvalue><![CDATA[]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -503,7 +542,7 @@ email=Sent via Email]]></optionscode>
 		<setting name="faxno">
 			<title>Contact Fax No</title>
 			<description><![CDATA[If you have a fax number, enter it here. This is shown on the COPPA compliance form.]]></description>
-			<disporder>20</disporder>
+			<disporder>23</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -512,7 +551,7 @@ email=Sent via Email]]></optionscode>
 		<setting name="no_plugins">
 			<title>Disable All Plugins</title>
 			<description><![CDATA[Setting this to yes will disable all plugins without deactivating or uninstalling them. This is equivalent of manually defining NO_PLUGINS at the top of init.php.]]></description>
-			<disporder>21</disporder>
+			<disporder>24</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -741,10 +780,28 @@ admin=Administrator Activation]]></optionscode>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
+		<setting name="hiddencaptchaimage">
+			<title>Display a hidden CAPTCHA</title>
+			<description><![CDATA[Do you want to display a hidden CAPTCHA field when a user registers? This may prevent spambots from registering on your forum.]]></description>
+			<disporder>15</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="hiddencaptchaimagefield">
+			<title>Hidden CAPTCHA field</title>
+			<description><![CDATA[You can choose a name for your hidden CAPTCHA field below.]]></description>
+			<disporder>16</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[email3]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
 		<setting name="failedlogintext">
 			<title>Display number of failed logins</title>
 			<description><![CDATA[Do you wish to display a line of text telling the user how many more login attempts they have?]]></description>
-			<disporder>15</disporder>
+			<disporder>17</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -753,7 +810,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="usereferrals">
 			<title>Use Referrals System</title>
 			<description><![CDATA[Do you want to use the user referrals system on these forums?]]></description>
-			<disporder>16</disporder>
+			<disporder>18</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -762,7 +819,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="sigmycode">
 			<title>Allow MyCode in Signatures</title>
 			<description><![CDATA[Do you want to allow MyCode to be used in users' signatures?]]></description>
-			<disporder>17</disporder>
+			<disporder>19</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -771,7 +828,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="maxsigimages">
 			<title>Maximum Number of Images per Signature</title>
 			<description><![CDATA[Enter the maximum number of images (including smilies) a user can put in their signature. Set to 0 to disable images in signatures altogether.]]></description>
-			<disporder>18</disporder>
+			<disporder>20</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[2]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -780,7 +837,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="sigsmilies">
 			<title>Allow Smilies in Signatures</title>
 			<description><![CDATA[Do you want to allow smilies to be used in users' signatures?]]></description>
-			<disporder>19</disporder>
+			<disporder>21</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -789,7 +846,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="sightml">
 			<title>Allow HTML in Signatures</title>
 			<description><![CDATA[Do you want to allow HTML to be used in users' signatures?]]></description>
-			<disporder>20</disporder>
+			<disporder>22</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -798,7 +855,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="sigimgcode">
 			<title>Allow [img] Code in Signatures</title>
 			<description><![CDATA[Do you want to allow [img] code to be used in users' signatures?]]></description>
-			<disporder>21</disporder>
+			<disporder>23</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -807,7 +864,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="siglength">
 			<title>Length limit in Signatures</title>
 			<description><![CDATA[The maximum number of characters a user can place in a signature.]]></description>
-			<disporder>22</disporder>
+			<disporder>24</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[255]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -816,7 +873,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="sigcountmycode">
 			<title>MyCode affects signature length</title>
 			<description><![CDATA[Do you want MyCode to be counted as part of the limit when users use MyCode in their signature?]]></description>
-			<disporder>23</disporder>
+			<disporder>25</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -825,7 +882,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="maxavatardims">
 			<title>Maximum Avatar Dimensions</title>
 			<description><![CDATA[The maximum dimensions that an avatar can be, in the format of width<b>x</b>height. If this is left blank then there will be no dimension restriction.]]></description>
-			<disporder>24</disporder>
+			<disporder>26</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[100x100]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -834,7 +891,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="avatarsize">
 			<title>Max Uploaded Avatar Size</title>
 			<description><![CDATA[Maximum file size (in kilobytes) of uploaded avatars.]]></description>
-			<disporder>25</disporder>
+			<disporder>27</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[10]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -843,7 +900,7 @@ admin=Administrator Activation]]></optionscode>
 		<setting name="avatarresizing">
 			<title>Avatar Resizing Mode</title>
 			<description><![CDATA[If you wish to automatically resize all large avatars, provide users the option of resizing their avatar, or not resize avatars at all you can change this setting.]]></description>
-			<disporder>26</disporder>
+			<disporder>28</disporder>
 			<optionscode><![CDATA[select
 auto=Automatically resize large avatars
 user=Give users the choice of resizing large avatars
@@ -855,7 +912,7 @@ disabled=Disable this feature]]></optionscode>
 		<setting name="avatardir">
 			<title>Avatar Directory</title>
 			<description><![CDATA[The directory where your avatars are stored. These are used in the avatar list in the User CP.]]></description>
-			<disporder>27</disporder>
+			<disporder>29</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[images/avatars]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -864,7 +921,7 @@ disabled=Disable this feature]]></optionscode>
 		<setting name="avataruploadpath">
 			<title>Avatar Upload Path</title>
 			<description><![CDATA[This is the path where custom avatars will be uploaded to. This directory <b>must be chmod 777</b> (writable) for uploads to work.]]></description>
-			<disporder>28</disporder>
+			<disporder>30</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[./uploads/avatars]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -872,8 +929,8 @@ disabled=Disable this feature]]></optionscode>
 		</setting>
 		<setting name="emailkeep">
 			<title>Users Keep Email</title>
-			<description><![CDATA[If a current user has an email already registered in your banned list, should he be allowed to keep it.]]></description>
-			<disporder>29</disporder>
+			<description><![CDATA[If a current user has an email already registered in your banned list, should he be allowed to keep it?]]></description>
+			<disporder>31</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -882,7 +939,7 @@ disabled=Disable this feature]]></optionscode>
 		<setting name="coppa">
 			<title>COPPA Compliance</title>
 			<description><![CDATA[If you wish to enable <a href="http://www.coppa.org/comply.htm">COPPA</a> support on your forums, please select the registration allowance below.]]></description>
-			<disporder>30</disporder>
+			<disporder>32</disporder>
 			<optionscode><![CDATA[select
 enabled=Enabled
 deny=Deny users under the age of 13
@@ -894,7 +951,7 @@ disabled=Disable this feature]]></optionscode>
 		<setting name="allowaway">
 			<title>Allow Away Statuses?</title>
 			<description><![CDATA[Should users be allowed to set their status to 'Away' with a custom reason & return date?]]></description>
-			<disporder>31</disporder>
+			<disporder>33</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -903,7 +960,7 @@ disabled=Disable this feature]]></optionscode>
 		<setting name="allowbuddyonly">
 			<title>Allow Buddy-Only Messaging?</title>
 			<description><![CDATA[Allow users to send private messages only to people on their buddy list?]]></description>
-			<disporder>32</disporder>
+			<disporder>34</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -949,7 +1006,7 @@ lastvisit=Last Visit]]></optionscode>
 			<optionscode><![CDATA[select
 ascending=Ascending
 descending=Descending]]></optionscode>
-			<settingvalue><![CDATA[ASC]]></settingvalue>
+			<settingvalue><![CDATA[ascending]]></settingvalue>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
@@ -1156,7 +1213,7 @@ descending=Descending]]></optionscode>
 		</setting>
 		<setting name="logip">
 			<title>Log Posting IP Addresses</title>
-			<description><![CDATA[Do you wish to log ip addresses of users who post, and who you want to show ip addresses to.]]></description>
+			<description><![CDATA[Do you wish to log ip addresses of users who post, and who you want to show ip addresses to?]]></description>
 			<disporder>10</disporder>
 			<optionscode><![CDATA[radio
 no=Do not log IP
@@ -1204,7 +1261,7 @@ show=Show to all Users]]></optionscode>
 		</setting>
 		<setting name="subscribeexcerpt">
 			<title>Amount of Characters for Subscription Previews</title>
-			<description><![CDATA[How many characters of the post do you want to send with the email notification of a new reply.]]></description>
+			<description><![CDATA[How many characters of the post do you want to send with the email notification of a new reply?]]></description>
 			<disporder>15</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[100]]></settingvalue>
@@ -1380,49 +1437,67 @@ download=As Download Link]]></optionscode>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
+		<setting name="posrep">
+			<title>Allow Positive Reputation</title>
+			<description><![CDATA[Allow users to give others positive reputation?]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
 		<setting name="negrep">
 			<title>Allow Negative Reputation</title>
 			<description><![CDATA[Allow users to give others negative reputation?]]></description>
-			<disporder>1</disporder>
+			<disporder>3</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
-			<isdefault>2</isdefault>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="neurep">
+			<title>Allow Neutral Reputation</title>
+			<description><![CDATA[Allow users to give others neutral reputation?]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
 		<setting name="multirep">
 			<title>Allow Multiple Reputation</title>
 			<description><![CDATA[Can users give multiple reputations to the same user?<br />Note: Does not effect "Post" reputation]]></description>
-			<disporder>1</disporder>
+			<disporder>5</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
-			<isdefault>3</isdefault>
+			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
 		<setting name="postrep">
 			<title>Allow Post Reputations</title>
 			<description><![CDATA[Enable reputation to be linked to posts?]]></description>
-			<disporder>1</disporder>
+			<disporder>6</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
-			<isdefault>4</isdefault>
+			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
 		<setting name="repsperpage">
 			<title>Reputation Comments Per Page</title>
 			<description><![CDATA[Here you can enter the number of reputation comments to show per page on the reputation system]]></description>
-			<disporder>2</disporder>
+			<disporder>7</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[15]]></settingvalue>
-			<isdefault>5</isdefault>
+			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
 		<setting name="maxreplength">
 			<title>Maximum Reputation Length</title>
 			<description><![CDATA[The maximum number of characters a reputation can be.]]></description>
-			<disporder>3</disporder>
+			<disporder>8</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[300]]></settingvalue>
-			<isdefault>6</isdefault>
+			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
 	</settinggroup>

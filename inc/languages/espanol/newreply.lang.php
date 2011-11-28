@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: newreply.lang.php 5079 2010-08-10 12:32:33Z Anio_pke $
+ * $Id: newreply.lang.php 5617 2011-11-28 12:40:33Z Anio_pke $
  */
 
 $l['nav_newreply'] = "Enviar respuesta";
@@ -27,7 +27,7 @@ $l['thread_review_more'] = "Este tema tiene más de {1} respuestas. <a href=\"{2
 $l['posted_by'] = "Enviado por";
 $l['draft_saved'] = "El nuevo mensaje ha sido exitosamente guardado como borrador.<br />Ahora serás llevado a tu lista de borradores.";
 $l['image_verification'] = "Verificación de la imagen";
-$l['verification_note'] = "Escribe el texto que aparece en la imagen de la izquierda, en el campo que esta abajo. Este proceso se usa para evitar mensajes automáticos.";
+$l['verification_note'] = "Escribe el texto contenido en la imagen en el campo que esta abajo. Este proceso se usa para evitar mensajes automáticos.";
 $l['verification_subnote'] = "(No distingue MAYÚSC/minúsc)";
 $l['invalid_captcha'] = "El código de verificación en la imagen fue escrito de manera incorrecta. Por favor escribe el código exactamente como aparece en la imagen.";
 $l['error_post_already_submitted'] = "Ya has publicado esta respuesta en el tema especificado. Por favor, visita el tema para ver tu respuesta.";

@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: style_themes.lang.php 5097 2011-07-31 20:09:38Z evilito $
+ * $Id: style_themes.lang.php 5557 2011-11-28 13:24:38Z Anio_pke $
  */
 
 $l['themes'] = "Estilos";
@@ -46,7 +46,6 @@ $l['delete_theme'] = "Eliminar estilo";
 $l['set_as_default'] = "Predeterminado";
 $l['default_theme'] = "Estilo predeterminado";
 $l['force_on_users'] = "Forzar a los usuarios";
-$l['export_theme'] = "Exportar estilo";
 $l['delete_revert'] = "Eliminar / Volver al original";
 
 $l['local_file'] = "Archivo local";

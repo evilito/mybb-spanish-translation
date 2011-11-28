@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: newthread.lang.php 5077 2010-08-10 12:32:33Z Anio_pke $
+ * $Id: newthread.lang.php 5617 2011-11-28 12:41:33Z Anio_pke $
  */
 
 $l['nav_newthread'] = "Nuevo tema";
@@ -27,7 +27,7 @@ $l['close_thread'] = "<b>Cerrar tema:</b> evita futuros mensajes en este tema.";
 $l['stick_thread'] = "<b>Tema importante:</b> Ubica este tema al principio de la lista de temas (A la vista de todos).";
 $l['draft_saved'] = "El nuevo tema ha sido exitosamente guardado como borrador.<br />Ahora serás llevado a tu lista de borradores.";
 $l['image_verification'] = "Verificación de la imagen";
-$l['verification_note'] = "Escribe el texto que aparece en la imagen de la izquierda, en el campo que esta abajo. Este proceso se usa para evitar mensajes automáticos.";
+$l['verification_note'] = "Escribe el texto contenido en la imagen en el campo que esta abajo. Este proceso se usa para evitar mensajes automáticos.";";
 $l['verification_subnote'] = "(No distingue MAYÚSC/minúsc)";
 $l['invalid_captcha'] = "El código de verificación en la imagen fue escrito de manera incorrecta. Por favor escribe el código exactamente como aparece en la imagen.";
 $l['error_post_already_submitted'] = "Ya has publicado este tema en este foro. Por favor, visita el foro para ver tu tema.";

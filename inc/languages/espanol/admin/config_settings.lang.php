@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: config_settings.lang.php 5017 2011-07-31 19:03:05Z evilito $
+ * $Id: config_settings.lang.php 5557 2011-11-28 13:45:05Z Anio_pke $
  */
  
 $l['board_settings'] = "Ajustes del foro";
@@ -51,7 +51,6 @@ $l['bbsettings'] = "Ajustes";
 $l['insert_new_setting_group'] = "Insertar nuevo grupo de ajustes";
 $l['setting_group_setting'] = "Grupo de ajustes / Ajuste";
 $l['order'] = "Orden";
-$l['edit_setting_group'] = "Editar grupo de ajustes";
 $l['delete_setting_group'] = "Eliminar grupo de ajustes";
 $l['save_display_orders'] = "Guardar orden de muestra";
 $l['update_setting_group'] = "Actualizar grupo de ajustes";
@@ -125,7 +124,7 @@ $l['setting_cpstyle_desc'] = "Estilo por defecto para el panel de control. Los e
 $l['setting_maxloginattempts'] = "Número máximo de intentos de inicio de sesión";
 $l['setting_maxloginattempts_desc'] = "El número máximo de intentos para iniciar sesión antes de bloquearlo. Establece 0 para desactivar.";
 $l['setting_loginattemptstimeout'] = "Tiempo de espera tras fallar el número máximo de intentos";
-$l['setting_loginattemptstimeout_desc'] = "Si la persona excede el número máximo de intentos para iniciar sesión, ¿Cuanto tiempo tiene que esperar antes de poder intentarlo de nuevo? (En minutos)";
+$l['setting_loginattemptstimeout_desc'] = "Si la persona revasa el número máximo de intentos para iniciar sesión, ¿Cuanto tiempo tiene que esperar antes de poder intentarlo de nuevo? (En minutos)";
 /**************************************************************************************************************************************************/
 
 // Grupo 4 datetime

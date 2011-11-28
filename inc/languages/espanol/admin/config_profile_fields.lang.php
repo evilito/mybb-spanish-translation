@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: config_profile_fields.lang.php 5016 2010-08-11 12:32:33Z Anio_pke $
+ * $Id: config_profile_fields.lang.php 5616 2011-11-28 13:16:33Z Anio_pke $
  */
  
 $l['custom_profile_fields'] = "Campos de perfil personalizados";
@@ -38,6 +38,8 @@ $l['editable_by_user'] = "¿Editable por el usuario?";
 $l['editable_by_user_desc'] = "¿Este campo es editable por el usuario? Si no, solo podrá ser editado por los administradores/moderadores.";
 $l['hide_on_profile'] = "¿Oculto en el perfil?";
 $l['hide_on_profile_desc'] = "¿Este campo está oculto en el perfil del usuario? Si está oculto solo podrá ser visto por los administradores/moderadores.";
+$l['min_posts_enabled'] = "¿Número mínimo de mensajes?";
+$l['min_posts_enabled_desc'] = "¿Este campo está solo disponible para usuarios con un cierto número de mensajes? Si es así, establece el número de mensajes requeridos aquí.";
 $l['save_profile_field'] = "Guardar campo de perfil";
 $l['name'] = "Nombre";
 $l['id'] = "ID";

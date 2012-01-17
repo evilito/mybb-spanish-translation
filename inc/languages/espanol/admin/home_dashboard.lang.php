@@ -27,7 +27,7 @@ $l['server_load'] = "Carga de servidor";
 $l['attachments'] = "Archivos adjuntos";
 $l['used'] = "Utilizado";
 
-$l['last_update_check_two_weeks'] = "Tu última <a href=\"{1}\">comprobación de la versión de MyBB</a> fué hace más de dos semanas.";
+$l['last_update_check_two_weeks'] = "Tu última <a href=\"{1}\">comprobación de la versión de MyBB</a> fue hace más de dos semanas.";
 $l['new_version_available'] = "Actualmente estás usando {1} y la última versión disponible es {2}.";
 
 $l['admin_notes_public'] = "Estas notas son visibles para todos los administradores.";

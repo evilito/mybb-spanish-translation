@@ -81,6 +81,7 @@ $l['success_promo_enabled'] = 'La promoción de grupo seleccionada se ha activad
 $l['success_promo_updated'] = 'La promoción de grupo seleccionada se ha actualizado correctamente.';
 $l['success_promo_added'] = 'La promoción se ha creado correctamente.';
 
+$l['confirm_promo_disable'] = "¿Estás seguro de querer desactivar esta promoción?";
 $l['confirm_promo_deletion'] = "¿Estás seguro de querer eliminar esta promoción?";
 
 ?>

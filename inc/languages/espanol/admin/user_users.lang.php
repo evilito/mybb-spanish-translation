@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: user_users.lang.php 5595 2011-11-28 13:42:44Z Anio_pke $
+ * $Id: user_users.lang.php 5696 2012-03-31 21:01:44Z Anio_pke $
  */
 
 $l['users'] = "Usuarios";
@@ -157,6 +157,7 @@ $l['icq_number'] = "Número de ICQ";
 $l['aim_handle'] = "Nombre de AIM";
 $l['yahoo_messanger_handle'] = "ID de Yahoo!";
 $l['msn_messanger_handle'] = "ID de WLM";
+$l['birthday'] = "Fecha de nacimiento";
 
 $l['hide_from_whos_online'] = "Ocultar de la lista 'Quién está en línea'";
 $l['login_cookies_privacy'] = "Inicio de sesión, cookies y privacidad";
@@ -329,7 +330,7 @@ $l['is_exactly'] = "Exactamente";
 $l['less_than'] = "Menor que";
 $l['post_count_is'] = "El número de mensajes es";
 $l['reg_ip_matches'] = "La IP de registro coincide con";
-$l['wildcard'] = "* denota cualquier cadena";
+$l['wildcard'] = "* denota un byte de IP: 1.2.*.*";
 $l['posted_with_ip'] = "Ha escrito desde la IP que coincide con";
 $l['custom_profile_fields_match'] = "El campo personalizado coincide...";
 $l['is_not_blank'] = " no está vacío";

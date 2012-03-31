@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: reputation.lang.php 5593 2011-11-28 12:49:00Z Anio_pke $
+ * $Id: reputation.lang.php 5750 2012-03-31 20:07:00Z Anio_pke $
  */
 
 $l['nav_reputation'] = "Detalles de la reputación";
@@ -76,7 +76,7 @@ $l['postrep_post'] = "Mensaje #";
 $l['postrep_given'] = "Reputación recibida en {1}<br />";
 $l['no_reputation_votes'] = "Este usuario aun no tiene ninguna reputación con los criterios especificados abajo.";
 $l['delete_reputation_confirm'] = "¿Estás seguro de eliminar esta reputación?";
-$l['delete_reputation_log'] = "Reputación eliminada por {1}";
+$l['delete_reputation_log'] = "Reputación eliminada por {1} (UID: {2})";
 $l['reputations_disabled_group'] = "El sistema de reputación esta deshabilitado para los usuarios de este grupo.";
 $l['rate_user'] = "Calificar usuario";
 ?>

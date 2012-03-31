@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: managegroup.lang.php 5016 2010-08-10 17:20:18Z Anio_pke $
+ * $Id: managegroup.lang.php 5702 2012-03-31 19:54:18Z Anio_pke $
  */
 
 $l['nav_group_management'] = "Configuración del grupo {1}";
@@ -33,6 +33,7 @@ $l['decline'] = "Declinar";
 $l['action_requests'] = "Realizar acciones";
 $l['join_requests_moderated'] = "Las Solicitudes de Ingreso han sido moderadas.<br />Ahora serás llevado a la lista de solicitudes.";
 $l['no_requests'] = "Actualmente no existe ninguna solicitud de ingreso para este grupo.";
+$l['no_users'] = "No hay usuarios en este grupo.";
 $l['user_added'] = "El usuario ha sido agregado a este grupo.";
 $l['users_removed'] = "Los usuarios seleccionados han sido quitados de este grupo.";
 $l['group_no_members'] = "Actualmente no hay usuarios en este grupo.<br />Para seguir manejando este grupo, haz clic <a href=\"usercp.php?action=usergroups\">aquí</a>.";

@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: forum_management.lang.php 5557 2011-11-28 13:18:33Z Anio_pke $
+ * $Id: forum_management.lang.php 5677 2012-03-31 20:46:33Z Anio_pke $
  */
 
 $l['forum_management'] = "Configurar foro";
@@ -74,6 +74,7 @@ $l['can_view_ips'] = "¿Puede ver IPs?";
 $l['can_open_close_threads'] = "¿Puede abrir/cerrar temas?";
 $l['can_manage_threads'] = "¿Puede moderar temas (Dividir, mover, copiar, combinar)?";
 $l['can_move_to_other_forums'] = "¿Puede mover temas a foros que este usuario no modera?";
+$l['can_use_custom_tools'] = "¿Puede usar herramientas de moderación personalizadas?";
 $l['save_mod'] = "Guardar moderador";
 
 $l['no_forums'] = "Actualmente no hay foros.";
@@ -144,6 +145,7 @@ $l['forum_specific_style'] = "Estilo específico:";
 $l['use_default'] = "Usar estilo por defecto";
 $l['dont_display_rules'] = "No mostrar las reglas para este foro";
 $l['display_rules_inline'] = "Mostrar las reglas para este foro en la lista de temas";
+$l['display_rules_inline_new'] = "Mostrar reglas en la lista de temas y para nuevos temas/respuestas";
 $l['display_rules_link'] = "Mostrar un enlace a las reglas para este foro";
 $l['display_method'] = "Método de muestra:";
 $l['rules'] = "Reglas:";

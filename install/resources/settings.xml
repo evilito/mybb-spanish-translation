@@ -214,10 +214,19 @@
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
+		<setting name="allowthreadratings">
+			<title>Use Thread Ratings?</title>
+			<description><![CDATA[Allow users to rate threads?]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
 		<setting name="browsingthisforum">
 			<title>Users Browsing this Forum</title>
 			<description><![CDATA[Here you can turn off the 'users browsing this forum' feature.]]></description>
-			<disporder>6</disporder>
+			<disporder>7</disporder>
 			<optionscode><![CDATA[onoff]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -226,7 +235,7 @@
 		<setting name="announcementlimit">
 			<title>Announcements Limit</title>
 			<description><![CDATA[The number of forum announcements to  show in the thread listing on the forum display pages. Set to 0 to disable announcements altogether.]]></description>
-			<disporder>7</disporder>
+			<disporder>8</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[2]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -235,7 +244,7 @@
 		<setting name="readparentforums">
 			<title>Attempt to Mark Parent Forums as Read</title>
 			<description><![CDATA[When set to yes, this setting will attempt to mark the parent forums of a sub-forum as read if there are no more unread posts. Please note that this setting can lead to a decrease in performance and multiple database queries and therefore must be treated as experimental. See the <a href="http://wiki.mybb.com/index.php/1.6.5">MyBB Wiki</a> for more information regarding this change.]]></description>
-			<disporder>8</disporder>
+			<disporder>9</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -555,6 +564,18 @@ email=Sent via Email]]></optionscode>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="username_method">
+			<title>Allowed Login Methods</title>
+			<description><![CDATA[The login methods you wish to allow for the username field. Username only, Email only, or allow both.]]></description>
+			<disporder>25</disporder>
+			<optionscode><![CDATA[select
+0=Username Only
+1=Email Only
+2=Both Username and Email]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>0</isdefault>
 			<helpkey></helpkey>
 		</setting>
 	</settinggroup>
@@ -929,7 +950,7 @@ disabled=Disable this feature]]></optionscode>
 		</setting>
 		<setting name="emailkeep">
 			<title>Users Keep Email</title>
-			<description><![CDATA[If a current user has an email already registered in your banned list, should he be allowed to keep it?]]></description>
+			<description><![CDATA[If a current user has an email already registered in your banned list, should they be allowed to keep it?]]></description>
 			<disporder>31</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
@@ -1616,19 +1637,10 @@ no=Disabled]]></optionscode>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
-		<setting name="useshutdownfunc">
-			<title>Use PHP's Shutdown Functionality</title>
-			<description><![CDATA[This setting for the most part is best left at the default which is detected upon installation. If thread indicators are not updating as well as other meta information, set this setting to 'No']]></description>
-			<disporder>9</disporder>
-			<optionscode><![CDATA[yesno]]></optionscode>
-			<settingvalue><![CDATA[0]]></settingvalue>
-			<isdefault>1</isdefault>
-			<helpkey></helpkey>
-		</setting>
 		<setting name="extraadmininfo">
 			<title>Advanced Stats / Debug information</title>
 			<description><![CDATA[Shows Server load, parse time, generation time, Gzip compression, etc on the bottom of all pages in the root folder. Please note that only administrators see this information.]]></description>
-			<disporder>10</disporder>
+			<disporder>9</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1637,7 +1649,7 @@ no=Disabled]]></optionscode>
 		<setting name="uploadspath">
 			<title>Uploads Path</title>
 			<description><![CDATA[The path used for all board uploads. It <b>must be chmod 777</b> (on Unix servers).]]></description>
-			<disporder>11</disporder>
+			<disporder>10</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[./uploads]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1646,7 +1658,7 @@ no=Disabled]]></optionscode>
 		<setting name="useerrorhandling">
 			<title>Use Error Handling</title>
 			<description><![CDATA[If you do not wish to use the integrated error handling for MyBB, you may turn this option off. However, it is reccommended that it stay on]]></description>
-			<disporder>12</disporder>
+			<disporder>11</disporder>
 			<optionscode><![CDATA[onoff]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1655,7 +1667,7 @@ no=Disabled]]></optionscode>
 		<setting name="errorlogmedium">
 			<title>Error Logging Medium</title>
 			<description><![CDATA[The type of the error handling to use.]]></description>
-			<disporder>13</disporder>
+			<disporder>12</disporder>
 			<optionscode><![CDATA[select
 none=Neither
 log=Log errors
@@ -1669,7 +1681,7 @@ both=Log and email errors
 		<setting name="errortypemedium">
 			<title>Error Type Medium</title>
 			<description><![CDATA[The type of errors to show.]]></description>
-			<disporder>14</disporder>
+			<disporder>13</disporder>
 			<optionscode><![CDATA[select
 warning=Warnings
 error=Errors
@@ -1683,7 +1695,7 @@ none=Hide Errors and Warnings
 		<setting name="errorloglocation">
 			<title>Error Logging Location</title>
 			<description><![CDATA[The location of the log to send errors to, if specified.]]></description>
-			<disporder>15</disporder>
+			<disporder>14</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[./error.log]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1692,7 +1704,7 @@ none=Hide Errors and Warnings
 		<setting name="enableforumjump">
 			<title>Enable Forum Jump Menu?</title>
 			<description><![CDATA[The forum jump menu is shown on the forum and thread view pages. It can add significant load to your forums if you have a large amount of forums. Set to 'No' to disable it.]]></description>
-			<disporder>16</disporder>
+			<disporder>15</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1701,7 +1713,7 @@ none=Hide Errors and Warnings
 		<setting name="ip_forwarded_check">
 			<title>Scrutinize User's IP address?</title>
 			<description><![CDATA[Do you want to check a user's IP address for HTTP_X_FORWARDED_FOR or HTTP_X_REAL_IP headers? If you're unsure, set this to no.]]></description>
-			<disporder>17</disporder>
+			<disporder>16</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1794,7 +1806,7 @@ classic=Display posts using the classic layout]]></optionscode>
 		</setting>
 		<setting name="similarityrating">
 			<title>Similar Threads Relevancy Rating</title>
-			<description><![CDATA[This allows you to limit similar threads to ones more relevant (0 being not relevant). This number should not be over 10 and should not be set low (<5) for large forums.]]></description>
+			<description><![CDATA[This allows you to limit similar threads to ones more relevant (0 being not relevant). This number should not be over 10 and should not be set low (<5) for large forums. Does not apply to PgSQL databases.]]></description>
 			<disporder>10</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>

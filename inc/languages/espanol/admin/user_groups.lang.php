@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: user_groups.lang.php 5616 2011-11-28 13:38:33Z Anio_pke $
+ * $Id: user_groups.lang.php 5755 2012-03-31 20:57:33Z Anio_pke $
  */
 
 $l['user_groups'] = "Grupos de usuarios";
@@ -78,7 +78,7 @@ $l['forum_team'] = "Sí, mostrar en la página 'Equipo del foro'";
 $l['is_banned_group'] = "Sí, este es un grupo suspendido<br /><small>Si este grupo es un grupo suspendido, los usuarios podrán ser suspendidos enviándolos a este grupo.</small>";
 $l['publicly_joinable_options'] = "Ingreso público";
 $l['user_joinable'] = "Sí, los usuarios pueden unirse y dejar este grupo libremente";
-$l['moderate_join_requests'] = "Sí, todos los nuevos ingresos deben ser moderados primero";
+$l['moderate_join_requests'] = "Sí, todos los nuevos ingresos deben ser moderados primero<br /><small>Los usuarios deben poder libremente unirse y dejar este grupo para que esto surta efecto.</small>";
 $l['can_set_as_display_group'] = "Sí, los usuarios pueden usar este grupo como su grupo a mostrar<br /><small>Si escoges sí, los usuarios podrán usarlo como grupo a mostrar para títulos de usuario, estrellas, estilo del nombre e imágenes de grupo.</small>";
 $l['moderation_administration_options'] = "Moderación/Administración";
 $l['is_super_mod'] = "Sí, los usuarios de este grupo son super moderadores";
@@ -152,8 +152,9 @@ $l['can_view_whos_online'] = "¿Puede ver 'Quién está en línea'?";
 $l['can_view_invisible'] = "¿Puede ver usuarios invisibles?";
 $l['can_view_ips'] = "¿Puede ver direcciones IP en 'Quién está en línea'?";
 $l['can_view_member_list'] = "¿Puede ver la lista de miembros?";
-$l['show_in_birthday_list'] = "¿Puede mostrarse en la lista de cumpleaños?";
+$l['show_in_birthday_list'] = "¿Pueden mostrarse en la lista de cumpleaños?";
 $l['can_email_users'] = "¿Puede enviar temas a sus amigos y enviar emails a los usuarios?";
+$l['can_email_users_override'] = "¿Puede enviar emails a los usuarios aunque estén en su lista de ignorados?";
 $l['max_emails_per_day'] = "Máximos emails al día:";
 $l['max_emails_per_day_desc'] = "Máximo número de emails que los usuarios pueden enviar usando las funciones 'Enviar email' y 'Enviar tema a un amigo'.";
 $l['outstanding_join_request'] = "peticion(es) de ingreso";

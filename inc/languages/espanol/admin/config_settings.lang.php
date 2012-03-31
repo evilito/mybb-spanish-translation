@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: config_settings.lang.php 5557 2011-11-28 15:24:05Z Anio_pke $
+ * $Id: config_settings.lang.php 5557 2012-03-31 21:35:05Z Anio_pke $
  */
  
 $l['board_settings'] = "Ajustes del foro";
@@ -155,6 +155,8 @@ $l['setting_hottopicviews'] = "Vistas para tema concurrido";
 $l['setting_hottopicviews_desc'] = "Número de vistas para que un tema sea considerado 'Concurrido'.";
 $l['setting_usertppoptions'] = "Opciones seleccionables de temas por página";
 $l['setting_usertppoptions_desc'] = "Si quieres permitir a los usuarios elegir cuántos temas quieren ver por página que se muestran en el foro, introduce las opciones que quieras permitir separadas con comas. Si prefires no permitir que escojan el número de temas por página, déjalo en blanco.";
+$l['setting_allowthreadratings'] = "Usar calificaciones de tema";
+$l['setting_allowthreadratings_desc'] = "Permitir a los usuarios calificar los temas";
 $l['setting_dotfolders'] = "Usar iconos de mensaje";
 $l['setting_dotfolders_desc'] = "Si quieres usar un punto en el indicador en los temas cuando el usuario ha participado en ese tema.";
 $l['setting_browsingthisforum'] = "Usuarios navegando este foro";
@@ -249,6 +251,11 @@ $l['setting_faxno'] = "Número de fax";
 $l['setting_faxno_desc'] = "Si tienes un número de fax, introdúcelo aquí. Esto se mostrará con el formulario COPPA.";
 $l['setting_no_plugins'] = "Deshabilitar todos los plugins";
 $l['setting_no_plugins_desc'] = "Configurar esto a 'Sí' deshabilitará todos los plugins sin desactivarlos o desinstalarlos. Esto es equivalente a definir manualmente NO_PLUGINS al inicio de init.php.";
+$l['setting_username_method'] = "Métodos de inicio de sesión permitidos";
+$l['setting_username_method_desc'] = "Métodos de inicio de sesión que quieres permitir para el campo de nombre de usuario. Nombre de usuario, Email o permitir ambos.";
+$l['setting_username_method_0'] = "Solo nombre de usuario";
+$l['setting_username_method_1'] = "Solo email";
+$l['setting_username_method_2'] = "Ambos (Nombre de usuario y email)";
 /**************************************************************************************************************************************************/
 
 //Grupo 8 mailsettings
@@ -566,8 +573,6 @@ $l['setting_tplhtmlcomments'] = "Mostrar comentarios de plantillas (Inicio/Fin)"
 $l['setting_tplhtmlcomments_desc'] = "Activa los comentarios de inicio y fin de las plantillas en el código de salida HTML.";
 $l['setting_use_xmlhttprequest'] = "¿Activar funciones de XMLHttp request?";
 $l['setting_use_xmlhttprequest_desc'] = "Este ajuste activará o desactivará las funciones de XMLHttp request (Funciones AJAX).";
-$l['setting_useshutdownfunc'] = "Usar la función de apagado de PHP";
-$l['setting_useshutdownfunc_desc'] = "Este ajuste, por norma general, es mejor dejarlo en el valor predefinido que es detectado en la instalación. Si los indicadores de los temas no se están actualizando tan bien como el resto de la información meta, cambie este ajuste a 'No'";
 $l['setting_extraadmininfo'] = "Estadísticas avanzadas / Información debug";
 $l['setting_extraadmininfo_desc'] = "Mostrar carga del servidor, tiempo de análisis, tiempo de generación, compresión Gzip, etc al final de todas las páginas de la raíz del foro. Esta información solo podrán verla los administradores.";
 $l['setting_uploadspath'] = "Ruta de subidas";

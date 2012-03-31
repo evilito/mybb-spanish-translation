@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: user_group_promotions.lang.php 5557 2011-11-28 13:30:33Z Anio_pke $
+ * $Id: user_group_promotions.lang.php 5746 2012-03-31 20:50:33Z Anio_pke $
  */
 
 $l['user_group_promotions'] = "Promociones de grupo";

@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: newreply.lang.php 5617 2011-11-28 12:40:33Z Anio_pke $
+ * $Id: newreply.lang.php 5657 2012-03-31 20:02:33Z Anio_pke $
  */
 
 $l['nav_newreply'] = "Enviar respuesta";
@@ -22,6 +22,7 @@ $l['preview_post'] = "Vista previa";
 $l['mod_options'] ="Opciones del moderador:";
 $l['close_thread'] = "<strong>Cerrar tema:</strong> Evita futuros mensajes en este tema.";
 $l['stick_thread'] = "<strong>Tema importante:</strong> Ubica este tema al principio de la lista de temas (A la vista de todos).";
+$l['forum_rules'] = "{1} - Reglas";
 $l['thread_review'] = "Resumen del tema (Mensajes más nuevos primero)";
 $l['thread_review_more'] = "Este tema tiene más de {1} respuestas. <a href=\"{2}\">Leer todo el tema</a>";
 $l['posted_by'] = "Enviado por";

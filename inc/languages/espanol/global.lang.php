@@ -65,8 +65,12 @@ $l['wrong_forum_password'] = "La contraseña que escribiste parece ser errónea.
 
 $l['reset_button'] = "Reiniciar";
 $l['username'] = "Nombre de usuario:";
+$l['username1'] = "Email:";
+$l['username2'] = "Nombre de usuario/Email:";
 $l['password'] = "Contraseña:";
 $l['login_username'] = "Nombre de usuario";
+$l['login_username1'] = "Email";
+$l['login_username2'] = "Nombre de usuario/Email";
 $l['login_password'] = "Contraseña";
 $l['lost_password'] = "¿Perdiste tu contraseña?";
 $l['remember_me'] = "Recordarme";

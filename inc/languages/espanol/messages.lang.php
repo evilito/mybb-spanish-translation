@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: messages.lang.php 5017 2011-07-31 21:37:39Z evilito $
+ * $Id: messages.lang.php 5740 2012-02-31 20:35:39Z Anio_pke $
  */
 
 $l['click_no_wait'] = "Haz clic aquí si no quieres esperar más.";
@@ -12,6 +12,8 @@ $l['redirect_emailsent'] = "Tu mensaje de email se ha enviado correctamente.";
 $l['redirect_loggedin'] = "Has iniciado sesión correctamente.<br />Ahora regresarás a la página de donde venías.";
 
 $l['error_invalidpworusername'] = "Has introducido una combinación de usuario/contraseña inválida. <br /><br />Si has olvidado tu contraseña por favor <a href=\"member.php?action=lostpw\">pide una nueva</a>.";
+$l['error_invalidpworusername1'] = "Has introducido una combinación de email/contraseña inválida. <br /><br />Si has olvidado tu contraseña por favor <a href=\"member.php?action=lostpw\">pide una nueva</a>.";
+$l['error_invalidpworusername2'] = "Has introducido una combinación de usuario/contraseña o email/contraseña inválida. <br /><br />Si has olvidado tu contraseña por favor <a href=\"member.php?action=lostpw\">pide una nueva</a>.";
 $l['error_incompletefields'] = "Parece que tienes algún campo en blanco. Por favor, regresa y rellena los campos necesarios.";
 $l['error_alreadyuploaded'] = "Este mensaje ya contiene un archivo adjunto con el mismo nombre. Por favor cambia el nombre del archivo e intenta adjuntarlo nuevamente. Alternativamente, puedes hacer clic en el botón \"Actualizar archivo\".";
 $l['error_alreadyuploaded_perm'] = "Este mensaje ya contiene un archivo adjunto con el mismo nombre. Por favor borra el archivo existente o cambia el nombre del archivo e intenta adjuntarlo nuevamente.";
@@ -52,7 +54,7 @@ $l['error_nopermission_guest_1'] = "No iniciaste sesión o no tienes permiso par
 $l['error_nopermission_guest_2'] = "No iniciaste sesión o no estás registrado. Usa el formulario al final de esta página para iniciar sesión.";
 $l['error_nopermission_guest_3'] = "No tienes permiso para acceder a esta página. ¿Estás tratando de entrar en páginas administrativas en las cuales no deberías de estar? Revisa las reglas del foro para ver si te está permitido realizar esta acción.";
 $l['error_nopermission_guest_4'] = "Tu cuenta pudo haber sido desactivada por un administrador, o puede que estés esperando activación.";
-$l['error_nopermission_guest_5'] = "Has accedido a esta página directamente en vez de usar los formularios o links adecuados.";
+$l['error_nopermission_guest_5'] = "Has accedido a esta página directamente en vez de usar los formularios o enlaces adecuados.";
 $l['login'] = "Iniciar sesión";
 $l['need_reg'] = "¿Necesitas registrarte?";
 $l['forgot_password'] = "¿Olvidaste tu contraseña?";
@@ -61,7 +63,7 @@ $l['error_nopermission_user_ajax'] = "No tienes permiso para acceder a esta pág
 $l['error_nopermission_user_2'] = "Tu cuenta esta suspendida o no tiene autorización del acceso a este recurso.";
 $l['error_nopermission_user_3'] = "No tienes permiso de ver esta página. ¿Estás tratando de entrar en páginas administrativas en las cuales no deberías estar? Revisa las reglas del foro para ver si te está permitido realizar esta acción.";
 $l['error_nopermission_user_4'] = "Tu cuenta está esperando ser activada o moderada.";
-$l['error_nopermission_user_5'] = "Has accedido a esta página directamente en vez de usar los formularios o links adecuados.";
+$l['error_nopermission_user_5'] = "Has accedido a esta página directamente en vez de usar los formularios o enlaces adecuados.";
 $l['error_nopermission_user_resendactivation'] = "Reenviar código de activación";
 $l['error_nopermission_user_username'] = "Sesión iniciada con el nombre de usuario: '{1}'";
 $l['logged_in_user'] = "Usuario en sesión";
@@ -78,7 +80,7 @@ $l['error_message_too_short'] = "Lo sentimos, tu mensaje es un corto y no puede 
 $l['failed_login_wait'] = "Ya has fallado el número de intentos requeridos para iniciar sesión. Debes esperar {1}h {2}m {3}s antes de volver a intentarlo.";
 $l['failed_login_again'] = "<br/>Tienes <strong>{1}</strong> intentos de inicio de sesión más.";
 $l['error_max_emails_day'] = "No puedes usar 'Enviar tema a un amigo' o 'Enviar email' porque ya has utilizado tu cuota de {1} mensajes en las últimas 24 horas.";
-
+		
 $l['emailsubject_lostpw'] = "Contraseña reiniciada {1}";
 $l['emailsubject_passwordreset'] = "Nueva contraseña en {1}";
 $l['emailsubject_subscription'] = "Nueva respuesta en {1}";
@@ -104,6 +106,38 @@ Si el enlace de arriba no funciona adecuadamente, ve a
 
 Necesitarás la siguiente información:
 Nombre de usuario: {1}
+Código de activación: {5}
+
+Gracias,
+El equipo de {2}.";
+$l['email_lostpw1'] = "{1},
+
+Para completar la fase de reseteo de la contraseña de tu cuenta en {2}, necesitas ir a la URL indicada abajo en tu navegador.
+
+{3}/member.php?action=resetpassword&uid={4}&code={5}
+
+Si el enlace no funciona correctamente, vete a
+
+{3}/member.php?action=resetpassword
+
+Necesitarás introducir lo siguiente:
+Tu dirección de email
+Código de activación: {5}
+
+Gracias,
+El equipo de {2}.";
+$l['email_lostpw2'] = "{1},
+
+Para completar la fase de reseteo de la contraseña de tu cuenta en {2}, necesitas ir a la URL indicada abajo en tu navegador.
+
+{3}/member.php?action=resetpassword&uid={4}&code={5}
+
+Si el enlace no funciona correctamente, vete a
+
+{3}/member.php?action=resetpassword
+
+Necesitarás introducir lo siguiente:
+Nombre de usuario: {1} (o tu dirección de email)
 Código de activación: {5}
 
 Gracias,
@@ -141,6 +175,30 @@ Nombre de usuario: {3}
 Contraseña: {4}
 
 Es recomendable que cambies de contraseña inmediatamente después de iniciar sesión. Puedes hacerlo en el panel de control del usuario, luego haciendo clic en 'Cambiar contraseña'.
+
+Gracias,
+El equipo de {2}.";
+
+$l['email_randompassword1'] = "{1},
+
+Gracias por registrarte en {2}. Abajo está tu nombre de usuario y tu contraseña aleatoria. Para iniciar sesión en {2}, necesitarás los siguientes detalles.
+
+Tu dirección de email
+Contraseña: {4}
+
+Se recomienda cambiar de contraseña inmediatamente tras iniciar sesión. Puedes hacerlo en tu panel de usuario clicando 'Cambiar contraseña' en el menú de la izquierda.
+
+Gracias,
+El equipo de {2}.";
+
+$l['email_randompassword2'] = "{1},
+
+Gracias por registrarte en {2}. Abajo está tu nombre de usuario y tu contraseña aleatoria. Para iniciar sesión en {2}, necesitarás los siguientes detalles.
+
+Nombre de usuario: {3} (o tu dirección de email)
+Contraseña: {4}
+
+Se recomienda cambiar de contraseña inmediatamente tras iniciar sesión. Puedes hacerlo en tu panel de usuario clicando 'Cambiar contraseña' en el menú de la izquierda.
 
 Gracias,
 El equipo de {2}.";
@@ -193,12 +251,46 @@ Para completar el proceso de registro en {2}, visita la siguiente dirección en 
 
 {3}/member.php?action=activate&uid={4}&code={5}
 
-Si el enlace de arriba no funciona adecuadamente, ve a
+Si el enlace no funciona correctamente, vete a
 
 {3}/member.php?action=activate
 
 Necesitarás la siguiente información:
 Nombre de usuario: {1}
+Código de activación: {5}
+
+Gracias,
+El equipo de {2}.";
+
+
+
+Para completar el proceso de registro en {2}, visita la siguiente dirección en tu navegador:
+
+{3}/member.php?action=activate&uid={4}&code={5}
+
+Si el enlace no funciona correctamente, vete a
+
+{3}/member.php?action=activate
+
+Necesitarás la siguiente información:
+Tu dirección de email
+Código de activación: {5}
+
+Gracias,
+El equipo de {2}.";
+
+$l['email_activateaccount2'] = "{1},
+
+Para completar el proceso de registro en {2}, necesitas ir a la URL indicada abajo en tu navegador.
+
+{3}/member.php?action=activate&uid={4}&code={5}
+
+Si el enlace no funciona correctamente, vete a
+
+{3}/member.php?action=activate
+
+Necesitarás la siguiente información:
+Nombre de usuario: {1} (o tu dirección de email)
 Código de activación: {5}
 
 Gracias,

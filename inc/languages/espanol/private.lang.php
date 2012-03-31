@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: private.lang.php 5608 2011-11-28 12:45:33Z Anio_pke $
+ * $Id: private.lang.php 5659 2012-03-31 20:05:33Z Anio_pke $
  */
 
 $l['nav_pms'] = "Mensaje privado";
@@ -94,6 +94,7 @@ $l['max_recipients'] = "<br />Puedes enviar este mensaje a un máximo de <strong
 $l['compose_subject'] = "Título:";
 $l['compose_message'] = "Mensaje:";
 $l['compose_options'] = "Opciones:";
+$l['message_icon'] = "Icono de mensaje:";
 $l['options_sig'] = "<strong>Firma:</strong> Incluir tu firma en este mensaje.";
 $l['options_disable_smilies'] = "<strong>Desactivar iconos gestuales:</strong> Evita que los iconos gestuales sean mostrados en este mensaje.";
 $l['options_save_copy'] = "<strong>Guardar una copia:</strong> guarda una copia de este mensaje en la carpeta de 'Elementos enviados'.";

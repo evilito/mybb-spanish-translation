@@ -262,7 +262,7 @@ Código de activación: {5}
 Gracias,
 El equipo de {2}.";
 
-
+$l['email_activateaccount1'] = "{1},
 
 Para completar el proceso de registro en {2}, visita la siguiente dirección en tu navegador:
 

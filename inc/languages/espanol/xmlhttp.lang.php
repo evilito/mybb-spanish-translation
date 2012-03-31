@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: xmlhttp.lang.php 5016 2010-12-16 12:32:33Z Anio_pke $
+ * $Id: xmlhttp.lang.php 5701 2012-03-31 20:10:33Z Anio_pke $
  */
 
 $l['no_new_subject'] = "No has introducido un nuevo título.";
@@ -24,7 +24,7 @@ $l['captcha_does_not_match'] = "El código verificación que has introducido no 
 $l['captcha_matches'] = "El código verificación que has introducido es correcto.";
 $l['banned_username'] = "El nombre de usuario introducido está deshabilitado por un administrador";
 $l['banned_characters_username'] = "Tu nombre de usuario tiene uno o más caracteres inválidos";
-$l['complex_password_fails'] = "La contraseña no es lo suficientemente compleja";
+$l['complex_password_fails'] = "La contraseña necesita una mayúscula, una minúscula y un número";
 $l['username_taken'] = "{1} está registrado por otro usuario";
 $l['username_available'] = "{1} está disponible";
 $l['invalid_username'] = "{1} no está registrado en estos foros.";

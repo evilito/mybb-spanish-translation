@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: newthread.lang.php 5617 2011-11-28 12:41:33Z Anio_pke $
+ * $Id: newthread.lang.php 5657 2012-03-31 20:04:33Z Anio_pke $
  */
 
 $l['nav_newthread'] = "Nuevo tema";
@@ -32,6 +32,7 @@ $l['verification_subnote'] = "(No distingue MAYÚSC/minúsc)";
 $l['invalid_captcha'] = "El código de verificación en la imagen fue escrito de manera incorrecta. Por favor escribe el código exactamente como aparece en la imagen.";
 $l['error_post_already_submitted'] = "Ya has publicado este tema en este foro. Por favor, visita el foro para ver tu tema.";
 $l['no_prefix'] = "Sin prefijo"; 
+$l['forum_rules'] = "{1} - Reglas";
 
 $l['multiquote_external_one'] = "Has seleccionado un mensaje fuera de este tema.";
 $l['multiquote_external'] = "Has seleccionado {1} mensajes fuera de este tema.";

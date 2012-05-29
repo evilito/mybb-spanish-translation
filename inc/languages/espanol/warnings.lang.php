@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: warnings.lang.php 5557 2011-11-28 12:53:33Z Anio_pke $
+ * $Id: warnings.lang.php 5814 2012-05-29 23:10:33Z Anio_pke $
  */
  
 $l['nav_profile'] = "Perfil de {1}";
@@ -43,13 +43,14 @@ Has recibido una advertencia del equipo de {2}.
 --
 
 --";
+$l['expiration_never'] = "permanentemente";
 $l['expiration_hours'] = "horas";
 $l['expiration_days'] = "días";
 $l['expiration_weeks'] = "semanas";
 $l['expiration_months'] = "meses";
-$l['redirect_warned_banned'] = "El usuario se ha movido al grupo {1} durante {2}.";
-$l['redirect_warned_suspended'] = "Los privilegios de escritura serás suspendidos durante {1}.";
-$l['redirect_warned_moderate'] = "Todos los mensajes de este usuario ahora tendrán que ser moderados durante {1}.";
+$l['redirect_warned_banned'] = "El usuario se ha movido al grupo {1} {2}.";
+$l['redirect_warned_suspended'] = "Los privilegios de escritura serás suspendidos {1}.";
+$l['redirect_warned_moderate'] = "Todos los mensajes de este usuario ahora tendrán que ser moderados {1}.";
 $l['redirect_warned'] = "El nivel de advertencia de {1} ha aumentado a {2}%.{3}<br /><br />Ahora regresarás al sitio del que viniste.";
 $l['error_warning_system_disabled'] = "No puedes usar el sistema de advertencias porque lo ha deshabilitado el administrador.";
 $l['reached_max_warnings_day'] = "No puedes advertit a nadie porque has gastado el límite de advertencias diarias.<br /><br />El máximo número de advertencias que puedes dar al día es de {1}.";
@@ -78,7 +79,7 @@ $l['result'] = "Resultado:";
 $l['result_banned'] = "El usuario se moverá al grupo de suspendidos ({1}) {2}";
 $l['result_suspended'] = "Los privilegios de escriturá se suspenderán {1}";
 $l['result_moderated'] = "Los mensajes serán moderados durante {1}";
-$l['result_period'] = "{1} {2}";
+$l['result_period'] = "durante {1} {2}";
 $l['hour_or_hours'] = "Hora(s)";
 $l['day_or_days'] = "Día(s)";
 $l['week_or_weeks'] = "Semana(s)";

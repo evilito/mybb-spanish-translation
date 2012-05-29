@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: config_banning.lang.php 5557 2011-11-28 13:09:33Z Anio_pke $
+ * $Id: config_banning.lang.php 5782 2012-05-29 23:13:33Z Anio_pke $
  */
  
 $l['banning'] = "Suspensiones";
@@ -36,6 +36,7 @@ $l['ban_ip_address'] = "Suspender IP";
 
 $l['error_missing_ban_input'] = "No has introducido un valor correcto para suspender.";
 $l['error_invalid_filter'] =" El filtro especificado no existe.";
+$l['error_filter_already_banned'] = "El filtro que has introducido ya está suspendido.";
 
 $l['success_ip_banned'] = "La dirección IP se ha suspendido correctamente.";
 $l['success_username_disallowed'] = "El nombre de usuario se ha deshabilitado correctamente.";

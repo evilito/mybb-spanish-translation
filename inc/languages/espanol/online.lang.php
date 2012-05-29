@@ -3,14 +3,14 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: online.lang.php 5635 2011-11-28 12:44:34Z Anio_pke $
+ * $Id: online.lang.php 5788 2012-05-29 23:06:34Z Anio_pke $
  */
 
 $l['nav_online'] = "Quién está en línea";
 $l['nav_onlinetoday'] = "Quién estuvo en línea hoy";
 
-$l['viewing_announcements'] = "Viendo <a href=\"{1}\">{2}</a> anuncios";
-$l['viewing_announcements2'] = "Viendo los anuncios del foro";
+$l['viewing_announcements'] = "Viendo anuncio <a href=\"{1}\">{2}</a>";
+$l['viewing_announcements2'] = "Viendo anuncio";
 $l['viewing_attachment'] = "Viendo archivo adjunto";
 $l['viewing_attachment2'] = "Viendo <a href=\"attachment.php?aid={1}\" target=\"_blank\">adjunto</a> en el tema <a href=\"{3}\">{2}</a>";
 $l['viewing_calendar'] = "Viendo el <a href=\"calendar.php\">Calendario</a>";
@@ -75,6 +75,7 @@ $l['viewing_noperms'] = "Viendo página de sin permisos";
 $l['unknown_location'] = "<a href=\"{1}\">Ubicación desconocida</a>";
 $l['giving_reputation'] = "Dando reputación a <a href=\"{1}\">{2}</a>";
 $l['viewing_reputation_report'] = "Viendo la reputación de <a href=\"{1}\">{2}</a>";
+$l['viewing_reputation_report2'] = "Viendo Reputación";
 $l['member_resendactivation'] = "Reenviando email de activación de cuenta";
 $l['member_lostpw'] = "Recuperando <a href=\"member.php?action=lostpw\">contraseña perdida</a>";
 $l['sending_thread'] = "Enviando tema a un amigo";

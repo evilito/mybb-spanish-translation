@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: user_groups.lang.php 5755 2012-03-31 20:57:33Z Anio_pke $
+ * $Id: user_groups.lang.php 5771 2012-05-29 23:17:33Z Anio_pke $
  */
 
 $l['user_groups'] = "Grupos de usuarios";
@@ -169,6 +169,7 @@ $l['error_invalid_username'] = "El nombre de usuario introducido es inválido.";
 $l['error_already_leader'] = "El usuario ya es el líder de este grupo de usuarios.";
 $l['error_invalid_group_leader'] = "Has especificado un líder de grupo inválido.";
 $l['error_missing_namestyle_username'] = "El estilo del nombre de usuario debe contener {username}";
+$l['error_disallowed_namestyle_username'] = "No puedes usar script, meta o tags en el estilo del nombre de usuario.";
 $l['error_default_group_delete'] = "Los grupos predefinidos no se pueden eliminar";
 
 $l['success_group_created'] = "El grupo de usuarios se ha creado correctamente.";

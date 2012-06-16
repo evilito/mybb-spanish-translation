@@ -52,23 +52,23 @@ $l['mybb_already_installed'] = "<p>Bienvenido al asistente de instalación de My
 
 $l['mybb_incorrect_folder'] = "<div class=\"border_wrapper upgrade_note\" style=\"padding: 4px;\">
 	<h3>MyBB ha detectado que está ejecutándose desde el directorio \"Upload\".</h3>
-	<p>Esto no está mal, pero se recomienda subir el contenido del directorio \"Upload\" y no el directorio en si.<br /><br />Para más información visita nuestro <a href=\"http://wiki.mybboard.net/index.php/Help:Upload_Directory\" target=\"_blank\">wiki</a>.</p>
+	<p>Esto no está mal, pero se recomienda subir el contenido del directorio \"Upload\" y no el directorio en si.<br /><br />Para más información visita nuestro <a href=\"http://docs.mybb.com/Help-Upload_Directory.html\" target=\"_blank\">wiki</a>.</p>
 </div>";
 
 $l['welcome_step'] = '<p>Bienvenido al asistente de instalación de MyBB {1}. Este asistente instalará y configurará una copia de MyBB en tu servidor.</p>
-<p>Ahora una vez subidos los archivos de MyBB es necesario crear e importar la base de datos y los ajustes. Abajo hay una lista de los pasos que se van a realizar durante la instalación.</p>
+<p>Ahora que has subido los archivos de MyBB es necesario crear e importar la base de datos y los ajustes. A continuación se muestra un resumen de lo que se va a realizar durante la instalación.</p>
 <ul>
 	<li>Comprobación de requerimientos de MyBB</li>
 	<li>Configuración de la base de datos</li>
 	<li>Creación de las tablas de la base de datos</li>
 	<li>Inserción de datos predefinidos</li>
-	<li>Importación de estilos y plantillas predefinidos</li>
+	<li>Importación de plantillas y estilos predefinidos</li>
 	<li>Creación de una cuenta de administrador para configurar tu foro</li>
 	<li>Configuración de los ajustes básicos del foro</li>
 </ul>
 <p>Después de que cada paso esté completado, pulsa "Siguiente" para continuar.</p>
 <p>Pulsa "Siguiente" para ver el acuerdo de licencia de MyBB.</p>
-<p><input type="checkbox" name="allow_anonymous_info" value="1" id="allow_anonymous" checked="checked" /> <label for="allow_anonymous"> Enviar estadísticas anónimas de las especificaciones de tu servidor al grupo MyBB</label> (<a href="http://wiki.mybboard.net/index.php/Anonymous_Statistics" style="color: #555;" target="_blank"><small>¿Qué infomación se envía?</small></a>)</p>';
+<p><input type="checkbox" name="allow_anonymous_info" value="1" id="allow_anonymous" checked="checked" /> <label for="allow_anonymous"> Enviar estadísticas anónimas de las especificaciones de tu servidor al Grupo MyBB</label> (<a href="http://docs.mybb.com/Anonymous_Statistics.html" style="color: #555;" target="_blank"><small>¿Qué infomación se envía?</small></a>)</p>';
 
 $l['license_step'] = '<div class="license_agreement">
 {1}
@@ -76,7 +76,7 @@ $l['license_step'] = '<div class="license_agreement">
 <p><strong>Pulsar "Siguiente", significa que aceptas los términos descritos arriba en el acuerdo de licencia de MyBB.</strong></p>';
 
 
-$l['req_step_top'] = '<p>Antes de instalar MyBB, debemos comprobar que cumples los mínimos requerimientos para funcionar correctamente.</p>';
+$l['req_step_top'] = '<p>Antes de instalar MyBB, debemos comprobar que cumples los requerimientos mínimos para funcionar correctamente.</p>';
 $l['req_step_reqtable'] = '<div class="border_wrapper">
 			<div class="title">Comprobación de requerimientos</div>
 		<table class="general" cellspacing="0">
@@ -87,7 +87,7 @@ $l['req_step_reqtable'] = '<div class="border_wrapper">
 		</thead>
 		<tbody>
 		<tr class="first">
-			<td class="first">Versión PHP:</td>
+			<td class="first">Versión de PHP:</td>
 			<td class="last alt_col">{1}</td>
 		</tr>
 		<tr class="alt_row">
@@ -136,12 +136,12 @@ $l['req_step_error_phpversion'] = 'MyBB requiere PHP 4.1.0 o posterior para ejec
 $l['req_step_error_dboptions'] = 'MyBB requiere una o más extensiones de base de datos para instalarse. El servidor avisa de que ninguna está disponible.';
 $l['req_step_error_xmlsupport'] = 'MyBB requiere PHP con soporte XML Data Handling. Por favor, visita <a href="http://www.php.net/xml" target="_blank">PHP.net</a> para más información.';
 $l['req_step_error_configdefaultfile'] = 'El archivo de configuración (inc/config.default.php) no puede ser renombrado. Por favor, renómbralo manualmente de <u>config.default.php</u> a <u>config.php</u> para permitir la escritura en él, o contacta con el <a href="http://www.mybb.com/support" targert="_blank">soporte de MyBB.</a>';
-$l['req_step_error_configfile'] = 'El archivo de configuración (inc/config.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://wiki.mybboard.net/index.php/CHMOD%20Files" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_settingsfile'] = 'El archivo de opciones (inc/settings.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://wiki.mybboard.net/index.php/CHMOD%20Files" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_cachedir'] = 'El directorio cache (cache/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://wiki.mybboard.net/index.php/CHMOD%20Files" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_uploaddir'] = 'El directorio de subidas (uploads/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://wiki.mybboard.net/index.php/CHMOD%20Files" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_avatardir'] = 'El directorio de avatares (uploads/avatars/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://wiki.mybboard.net/index.php/CHMOD%20Files" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_cssddir'] = 'El directorio css (css/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://wiki.mybboard.net/index.php/CHMOD%20Files" target="_blank">chmod</a> para permitir escribir en él.';
+$l['req_step_error_configfile'] = 'El archivo de configuración (inc/config.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://docs.mybb.com/CHMOD_Files.html" target="_blank">chmod</a> para permitir escribir en él.';
+$l['req_step_error_settingsfile'] = 'El archivo de opciones (inc/settings.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://docs.mybb.com/CHMOD_Files.html" target="_blank">chmod</a> para permitir escribir en él.';
+$l['req_step_error_cachedir'] = 'El directorio cache (cache/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://docs.mybb.com/CHMOD_Files.html" target="_blank">chmod</a> para permitir escribir en él.';
+$l['req_step_error_uploaddir'] = 'El directorio de subidas (uploads/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://docs.mybb.com/CHMOD_Files.html" target="_blank">chmod</a> para permitir escribir en él.';
+$l['req_step_error_avatardir'] = 'El directorio de avatares (uploads/avatars/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://docs.mybb.com/CHMOD_Files.html" target="_blank">chmod</a> para permitir escribir en él.';
+$l['req_step_error_cssddir'] = 'El directorio css (css/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://docs.mybb.com/CHMOD_Files.html" target="_blank">chmod</a> para permitir escribir en él.';
 $l['req_step_error_tablelist'] = '<div class="error">
 <h3>Error</h3>
 <p>La comprobación de requerimientos de MyBB ha fallado por las siguientes razones. La instalación de MyBB no puede continuar porque no cumples todos los requerimientos. Por favor, corrige los errores e inténtalo de nuevo:</p>
@@ -149,7 +149,7 @@ $l['req_step_error_tablelist'] = '<div class="error">
 </div>';
 
 
-$l['db_step_config_db'] = '<p>Ahora es el momento de configurar la base de datos que MyBB utilizará para autentificarse en el servidor. Si no dispones de esta información, normalmente puedes obtenerla de tu servidor web.</p>';
+$l['db_step_config_db'] = '<p>Ahora es el momento de configurar la base de datos que MyBB utilizará incluyendo los detalles de autenticación. Si no dispones de esta información, normalmente puedes obtenerla de tu proveedor de alojamiento web.</p>';
 $l['db_step_config_table'] = '<div class="border_wrapper">
 <div class="title">Configuración de la base de datos</div>
 <table class="general" cellspacing="0">
@@ -231,7 +231,7 @@ $l['config_step_table'] = '<p>Ahora es el momento de configurar los ajustes bás
 					<td class="last alt_col"><input type="text" class="text_input" name="websiteurl" id="websiteurl" value="{4}" /></td>
 				</tr>
 				<tr>
-					<th colspan="2" class="first last">Ajustes de cookie <a title="¿Qué es esto?" target="_blank" href="http://wiki.mybboard.net/index.php/Cookie_Settings">(?)</a></th>
+					<th colspan="2" class="first last">Ajustes de cookie <a title="¿Qué es esto?" target="_blank" href="http://docs.mybb.com/Cookie_Settings.html">(?)</a></th>
 				</tr>
 				<tr>
 					<td class="first"><label for="cookiedomain">Dominio de cookie:</label></td>
@@ -339,7 +339,7 @@ $l['upgrade_removedir'] = 'Por favor, elimina este directorio antes de explorar 
 $l['upgrade_congrats'] = "<p>Enhorabuena, tu copia de MyBB se ha actualizado a {1}.</p>{2}<p><strong>¿Y ahora?</strong></p><ul><li>Por favor, usa la herramienta 'Buscar Actualizadas' en el panel de administración para buscar las plantillas personalizadas que se han actualizado. Edita las que contengan cambios o vuelve a las originales.</li><li>Asegúrate de que tu foro está totalmente funcional.</li></ul>";
 $l['upgrade_template_reversion'] = "Advertencia revertir plantillas";
 $l['upgrade_template_reversion_success'] = "<p>Todas las modificaciones necesarias para actualizar tu foro se han realizado correctamente.</p><p>Esta actualización necesita que las plantillas regresen a las originales contenidas en este paquete, así que por favor copia cualquier plantilla personalizada antes de continuar.";
-$l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Enviar estadísticas anónimas de las especificaciones de tu servidor al grupo MyBB</label> (<a href=\"http://wiki.mybboard.net/index.php/Anonymous_Statistics\" style=\"color: #555;\" target=\"_blank\"><small>¿Qué infomación se envía?</small></a>)</p>";
+$l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Enviar estadísticas anónimas de las especificaciones de tu servidor al grupo MyBB</label> (<a href=\"http://docs.mybb.com/Anonymous_Statistics.html\" style=\"color: #555;\" target=\"_blank\"><small>¿Qué infomación se envía?</small></a>)</p>";
 
 /* Error messages */
 $l['locked'] = 'El instalador está bloqueado, por favor, elimina el archivo \'lock\' de la carpeta \'install\' para continuar';

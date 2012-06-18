@@ -96,9 +96,9 @@ $l['email_notify'] = "Suscribirte automáticamente a los temas en los que partic
 $l['receive_pms'] = "Recibir mensajes privados de otros usuarios.";
 $l['pm_notice'] = "Alertarme con un aviso cuando reciba un mensaje privado.";
 $l['email_notify_newpm'] = "Notificarme por email cuando reciba un mensaje privado.";
-$l['time_offset'] = "Zona horaria (Correción <acronym title=\"Horario de verano\">DST</acronym> excluída):";
-$l['time_offset_desc'] = "Si vives en una zona de horario diferente a la cual este foro esta situado, puedes seleccionarla en la lista de abajo.";
-$l['dst_correction'] = "Correción horario de verano:";
+$l['time_offset'] = "Zona horaria (Correción <acronym title=\"horario de verano\">DST</acronym> excluida):";
+$l['time_offset_desc'] = "Si vives en una zona horaria diferente a la predeterminada de este foro, puedes seleccionarla en la lista de abajo.";
+$l['dst_correction'] = "Correción de horario de verano:";
 $l['dst_correction_auto'] = "Detectar la correción DST";
 $l['dst_correction_enabled'] = "Utilizar la corrección DST";
 $l['dst_correction_disabled'] = "No utilizar la corrección DST";
@@ -131,7 +131,7 @@ $l['coppa_agreement_3'] = "Si, quieres puedes comenzar el registro, sin embargo,
 $l['error_awaitingcoppa'] = "No puedes iniciar sesión con esta cuenta mientras está en espera de la validación COPPA.<br /><br />El padre o tutor legal debe descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">formulario de permiso COPPA</a>.<br /><br />Cuando recibamos una copia completa de este formulario, la cuenta se activará.";
 
 $l['lang_select'] = "Ajustes de idioma:";
-$l['lang_select_desc'] = "Si hablas un idioma diferente al predeterminado de este foro, es posible que haya un paquete de idioma instalado más acorde con el idioma de tu preferencia.";
+$l['lang_select_desc'] = "Si hablas un idioma diferente al predeterminado de este foro, es posible que puedas seleccionarlo en la lista de abajo.";
 $l['lang_select_default'] = "Usar predeterminado";
 
 $l['submit_registration'] = "¡Enviar registro!";

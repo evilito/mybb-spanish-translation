@@ -99,9 +99,9 @@ $l['email_notify_newpm'] = "Notificarme por email cuando reciba un mensaje priva
 $l['time_offset'] = "Zona horaria (Correción <acronym title=\"horario de verano\">DST</acronym> excluida):";
 $l['time_offset_desc'] = "Si vives en una zona horaria diferente a la predeterminada de este foro, puedes seleccionarla en la lista de abajo.";
 $l['dst_correction'] = "Correción de horario de verano:";
-$l['dst_correction_auto'] = "Detectar la correción DST";
-$l['dst_correction_enabled'] = "Utilizar la corrección DST";
-$l['dst_correction_disabled'] = "No utilizar la corrección DST";
+$l['dst_correction_auto'] = "Detección automática";
+$l['dst_correction_enabled'] = "Usar corrección DST";
+$l['dst_correction_disabled'] = "No usar corrección DST";
 $l['redirect_registered_coppa_activate'] = "Gracias por registrarte en {1}, {2}. Tu cuenta se ha creado correctamente; sin embargo, si el dueño de esta cuenta es menor de 13 años, debe tener el permiso de sus padres para utilizar esta cuenta.<br /><br />Los padres o tutores legales deben descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">fomulario de permiso COPPA</a>.<br /><br />Una vez recibamos el formulario, la cuenta se activará.";
 $l['coppa_compliance'] = "Formulario COPPA";
 $l['coppa_desc'] = "Para registrarte en estos foros, necesitamos que verifiques tu edad con <a href=\"http://coppa.org/\" title=\"Children's Online Privacy Protection Act\" target=\"_blank\">COPPA</a>. Por favor, introduce tu edad de nacimiento debajo.<br /><br />Si tienes menos de 13 años, necesitaremos el permiso de tus padres. Los padres o tutores legales deben descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">formulario de permiso COPPA</a>.";

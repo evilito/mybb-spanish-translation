@@ -131,7 +131,7 @@ $l['coppa_agreement_3'] = "Si, quieres puedes comenzar el registro, sin embargo,
 $l['error_awaitingcoppa'] = "No puedes iniciar sesión con esta cuenta mientras está en espera de la validación COPPA.<br /><br />El padre o tutor legal debe descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">formulario de permiso COPPA</a>.<br /><br />Cuando recibamos una copia completa de este formulario, la cuenta se activará.";
 
 $l['lang_select'] = "Ajustes de idioma:";
-$l['lang_select_desc'] = "Si hablas otro idioma diferente al por defecto de los foros, es posible que haya algún paquete de idioma instalado más acorde con tu idioma natal.";
+$l['lang_select_desc'] = "Si hablas un idioma diferente al predeterminado de este foro, es posible que haya un paquete de idioma instalado más acorde con el idioma de tu preferencia.";
 $l['lang_select_default'] = "Usar predeterminado";
 
 $l['submit_registration'] = "¡Enviar registro!";
@@ -210,9 +210,9 @@ $l['js_validator_username_length'] = "Los nombres de usuario deben tener entre {
 $l['js_validator_checking_referrer'] = "Comprobando si el usuario recomendado existe.";
 $l['js_validator_captcha_valid'] = "Comprobando si se ha introducido correctamente el código de verificación.";
 
-$l['subscription_method'] = "Suscripción de tema por defecto:";
+$l['subscription_method'] = "Suscripción de tema predeterminado:";
 $l['no_auto_subscribe'] = "No suscribir";
-$l['no_email_subscribe'] = "No notificación por email";
+$l['no_email_subscribe'] = "No notificar por email";
 $l['instant_email_subscribe'] = "Notificación instantánea por email";
 
 $l['remove_from_buddy_list'] = "Quitar de mi lista de amigos";

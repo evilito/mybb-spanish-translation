@@ -202,7 +202,7 @@ $l['confirm_password'] = "Confirmar contraseña:";
 $l['update_password'] = "Actualizar contraseña";
 $l['edit_profile'] = "Editar perfil";
 $l['profile_required'] = "Campos requeridos";
-$l['change_email_notice'] = "Para cambiar tu dirección de email, haz clic <a href=\"usercp.php?action=email\">aquí</a>";
+$l['change_email_notice'] = "Para cambiar tu dirección de email, haz <a href=\"usercp.php?action=email\">clic aquí</a>.";
 $l['profile_optional'] = "Campos opcionales";
 $l['website_url'] = "URL de tu sitio web:";
 $l['birthdate'] = "Cumpleaños:";

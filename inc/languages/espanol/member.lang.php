@@ -155,7 +155,7 @@ $l['registrations_disabled'] = "Lo sentimos, pero no te puedes registrar por el 
 $l['error_username_length'] = "Tu nombre de usuario es inválido. Los nombres de usuario tienen que ser de {1} a {2} letras de largo.";
 
 $l['none_registered'] = "Ningún registrado";
-$l['not_specified'] = "No especificado";
+$l['not_specified'] = "Sin especificar";
 $l['membdayage'] = "({1} años de edad)";
 $l['mod_options'] = "Opciones de moderador";
 $l['edit_in_mcp'] = "Editar en el panel de moderación";

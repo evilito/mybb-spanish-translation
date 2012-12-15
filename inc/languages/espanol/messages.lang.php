@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: messages.lang.php 5740 2012-02-31 20:35:39Z Anio_pke $
+ * $Id: : messages.lang.php 5740 2012-12-15 20:01:16Z Anio_pke $
  */
 
 $l['click_no_wait'] = "Haz clic aquí si no quieres esperar más.";

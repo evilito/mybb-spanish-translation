@@ -45,7 +45,7 @@ $l['error_uploadfailed_movefailed'] = "Ha ocurrido un problema al mover el archi
 $l['error_uploadfailed_lost'] = "El archivo adjunto no se encuentra en el servidor.";
 $l['error_emailmismatch'] = "Las direcciones de email que has introducido no coinciden. Por favor, regresa e inténtalo de nuevo";
 $l['error_nopassword'] = "No escribiste una contraseña válida.";
-$l['error_usernametaken'] = "El nombre de usuario que escribiste ya esta registrado.";
+$l['error_usernametaken'] = "El nombre de usuario que escribiste ya esta registrado. Si ya te habías registrado con anterioridad en estos foros, por favor, <a href=\"member.php?action=login\">inicia sesión.</a>.";
 $l['error_nousername'] = "No escribiste un nombre de usuario.";
 $l['error_invalidusername'] = "El nombre de usuario que escribiste parece ser no válido.";
 $l['error_invalidpassword'] = "La contraseña que escribiste es incorrecta. Si la olvidaste, haz click <a href=\"member.php?action=lostpw\">aquí</a>, o regresa e intenta de nuevo.";

@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: forum_announcements.lang.php 5016 2010-08-11 12:32:33Z Anio_pke $
+ * $Id: forum_announcements.lang.php 5016 2013-04-29 12:32:33Z Anio_pke $
  */
 
 $l['forum_announcements'] = "Anuncios del foro";
@@ -33,6 +33,9 @@ $l['error_invalid_announcement'] = "Por favor, introduce un anuncio válido.";
 $l['error_missing_title'] = "No has introducido un título.";
 $l['error_missing_message'] = "No has introducido un mensaje.";
 $l['error_missing_forum'] = "No has seleccionado un foro.";
+$l['error_invalid_start_date'] = "La fecha de inicio del anuncio es inválido.";
+$l['error_invalid_end_date'] = "La fecha de fin del anuncio es inválido.";
+$l['error_end_before_start'] = "La fecha de fin debe ser posterior a la de inicio.";
 
 $l['add_an_announcement'] = "Agregar un anuncio";
 $l['update_an_announcement'] = "Actualizar un anuncio";

@@ -3,8 +3,11 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: helpdocs.lang.php 5016 2010-08-10 15:50:28Z Anio_pke $
+ * $Id: helpdocs.lang.php 5016 2013-04-29 15:50:28Z Anio_pke $
  */
+
+/* Descomenta las líneas de abajo para usar estas cadenas en lugar de los documentos de ayuda de la base de datos. */
+
 
 // Help Document 1
 $l['d1_name'] = "Registro de usuarios";
@@ -68,4 +71,5 @@ $l['d7_document'] = "En tus posts puedes usar MyCode, una variante simplificada 
 <p><br />[list]<br />[*]Objeto de lista #1<br />[*]Objeto de lista #2<br />[*]Objeto de lista #3<br />[/list]<br /><ul><li>Objeto de lista #1</li><li>Objeto de lista #2</li><li>Objeto de lista #3</li>
 </ul>
 <p>Para listas ordenadas, usa [list=1] para lista numerada o [list=a] para lista alfabética.</p>";
+
 ?>

@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: member.lang.php 5741 2012-03-31 19:56:33Z Anio_pke $
+ * $Id: member.lang.php 5741 2013-04-29 19:56:33Z Anio_pke $
  */
 
 $l['nav_register'] = "Registrar";
@@ -96,12 +96,12 @@ $l['email_notify'] = "Suscribirte automáticamente a los temas en los que partic
 $l['receive_pms'] = "Recibir mensajes privados de otros usuarios.";
 $l['pm_notice'] = "Alertarme con un aviso cuando reciba un mensaje privado.";
 $l['email_notify_newpm'] = "Notificarme por email cuando reciba un mensaje privado.";
-$l['time_offset'] = "Zona horaria (Correción <acronym title=\"horario de verano\">DST</acronym> excluida):";
-$l['time_offset_desc'] = "Si vives en una zona horaria diferente a la predeterminada de este foro, puedes seleccionarla en la lista de abajo.";
-$l['dst_correction'] = "Correción de horario de verano:";
-$l['dst_correction_auto'] = "Detección automática";
-$l['dst_correction_enabled'] = "Usar corrección DST";
-$l['dst_correction_disabled'] = "No usar corrección DST";
+$l['time_offset'] = "Zona horaria (Correción <acronym title=\"Horario de verano\">DST</acronym> excluída):";
+$l['time_offset_desc'] = "Si vives en una zona de horario diferente a la cual este foro esta situado, puedes seleccionarla en la lista de abajo.";
+$l['dst_correction'] = "Correción horario de verano:";
+$l['dst_correction_auto'] = "Detectar la correción DST";
+$l['dst_correction_enabled'] = "Utilizar la corrección DST";
+$l['dst_correction_disabled'] = "No utilizar la corrección DST";
 $l['redirect_registered_coppa_activate'] = "Gracias por registrarte en {1}, {2}. Tu cuenta se ha creado correctamente; sin embargo, si el dueño de esta cuenta es menor de 13 años, debe tener el permiso de sus padres para utilizar esta cuenta.<br /><br />Los padres o tutores legales deben descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">fomulario de permiso COPPA</a>.<br /><br />Una vez recibamos el formulario, la cuenta se activará.";
 $l['coppa_compliance'] = "Formulario COPPA";
 $l['coppa_desc'] = "Para registrarte en estos foros, necesitamos que verifiques tu edad con <a href=\"http://coppa.org/\" title=\"Children's Online Privacy Protection Act\" target=\"_blank\">COPPA</a>. Por favor, introduce tu edad de nacimiento debajo.<br /><br />Si tienes menos de 13 años, necesitaremos el permiso de tus padres. Los padres o tutores legales deben descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">formulario de permiso COPPA</a>.";
@@ -131,7 +131,7 @@ $l['coppa_agreement_3'] = "Si, quieres puedes comenzar el registro, sin embargo,
 $l['error_awaitingcoppa'] = "No puedes iniciar sesión con esta cuenta mientras está en espera de la validación COPPA.<br /><br />El padre o tutor legal debe descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">formulario de permiso COPPA</a>.<br /><br />Cuando recibamos una copia completa de este formulario, la cuenta se activará.";
 
 $l['lang_select'] = "Ajustes de idioma:";
-$l['lang_select_desc'] = "Si hablas un idioma diferente al predeterminado de este foro, es posible que puedas seleccionarlo en la lista de abajo.";
+$l['lang_select_desc'] = "Si hablas otro idioma diferente al por defecto de los foros, es posible que haya algún paquete de idioma instalado más acorde con tu idioma natal.";
 $l['lang_select_default'] = "Usar predeterminado";
 
 $l['submit_registration'] = "¡Enviar registro!";
@@ -146,8 +146,8 @@ $l['tpp'] = "Temas por página:";
 $l['tpp_desc'] = "Te permite seleccionar la cantidad de temas que son mostrados por página en una lista de temas.";
 $l['reset_password'] = "Reiniciar contraseña";
 $l['send_password'] = "¡Enviar nueva contraseña!";
-$l['image_verification'] = "Verificación de imagen";
-$l['verification_note'] = "Escribe el texto que aparece en la imagen, en el campo que está abajo. Esto evita registros automáticos.";
+$l['image_verification'] = "Verificación de la imagen";
+$l['verification_note'] = "Escribe el texto que aparece en la imagen de la derecha, en el campo que está abajo. Este proceso se usa para evitar registros automáticos.";
 $l['verification_subnote'] = "(no distingue MAYÚSC/minúsc)";
 $l['registration_errors'] = "Los siguientes errores ocurrieron con tu registro:";
 $l['timeonline'] = "Tiempo en línea:";
@@ -155,7 +155,7 @@ $l['registrations_disabled'] = "Lo sentimos, pero no te puedes registrar por el 
 $l['error_username_length'] = "Tu nombre de usuario es inválido. Los nombres de usuario tienen que ser de {1} a {2} letras de largo.";
 
 $l['none_registered'] = "Ningún registrado";
-$l['not_specified'] = "Sin especificar";
+$l['not_specified'] = "No especificado";
 $l['membdayage'] = "({1} años de edad)";
 $l['mod_options'] = "Opciones de moderador";
 $l['edit_in_mcp'] = "Editar en el panel de moderación";
@@ -210,9 +210,9 @@ $l['js_validator_username_length'] = "Los nombres de usuario deben tener entre {
 $l['js_validator_checking_referrer'] = "Comprobando si el usuario recomendado existe.";
 $l['js_validator_captcha_valid'] = "Comprobando si se ha introducido correctamente el código de verificación.";
 
-$l['subscription_method'] = "Suscripción de tema predeterminado:";
+$l['subscription_method'] = "Suscripción de tema por defecto:";
 $l['no_auto_subscribe'] = "No suscribir";
-$l['no_email_subscribe'] = "No notificar por email";
+$l['no_email_subscribe'] = "No notificación por email";
 $l['instant_email_subscribe'] = "Notificación instantánea por email";
 
 $l['remove_from_buddy_list'] = "Quitar de mi lista de amigos";

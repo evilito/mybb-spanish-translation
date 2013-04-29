@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: datahandler_user.lang.php 5016 2010-08-10 12:32:33Z Anio_pke $
+ * $Id: datahandler_user.lang.php 5016 2013-04-29 12:32:33Z Anio_pke $
  */
 
 $l['userdata_missing_username'] = 'No has introducido un nombre de usuario. Por favor, introduce uno';
@@ -30,6 +30,7 @@ $l['userdata_invalid_msn_address'] = 'La dirección de MSN que has introducido e
 $l['userdata_invalid_birthday'] = 'El cumpleaños que has introducido es inválido. Por favor, introduce un cumpleaños válido o deja el campo vacío';
 $l['userdata_invalid_birthday_coppa'] = 'Para verificar tu edad, introduce el año en que naciste. Puedes ocultar tu edad y fecha de nacimiento en las opciones de tu perfil.';
 $l['userdata_invalid_birthday_coppa2'] = 'Debes tener más de 13 años para ser miembro de este foro. Por favor, contacta con un administrador.';
+$l['userdata_invalid_birthday_privacy'] = 'Por favor, elige una opción de privacidad válida para tu cumpleaños.';
 $l['userdata_invalid_referrer'] = 'El recomendante que has introducido no existe. Por favor, introduce uno existente o déjalo en blanco.';
 $l['userdata_invalid_language'] = 'El idioma que has seleccionado no existe. Por favor, selecciona un idioma existente.';
 $l['userdata_missing_returndate'] = 'En la fecha de regreso que has especificado faltan uno o más campos. Por favor, asegúrate que has rellenado los campos día, mes, y año.';

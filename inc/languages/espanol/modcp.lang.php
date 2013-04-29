@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: modcp.lang.php 5686 2012-03-31 20:00:33Z Anio_pke $
+ * $Id: modcp.lang.php 5686 2013-04-29 20:00:33Z Anio_pke $
  */
 
 $l['nav_width'] = "180";
@@ -79,7 +79,6 @@ $l['find'] = "Buscar";
 $l['modlogs'] = "Historial de moderación";
 $l['action'] = "Acción";
 $l['all_moderators'] = "Todos los moderadores";
-$l['date'] = "Fecha";
 $l['ip'] = "Dirección IP";
 $l['info_on_ip'] = "Información sobre esta dirección IP";
 $l['information']  = "Información";
@@ -185,8 +184,9 @@ $l['multi_approve_threads'] = "Seleccionar temas aprobados";
 $l['multi_delete_threads'] = "Seleccionar temas eliminados";
 $l['edited_user'] = "Edición del perfil de usuario";
 $l['edited_user_info'] = "<strong>Usuario:</strong> <a href=\"{2}\">{1}</a>";
+$l['edited_user_ban'] = "Suspensión editada.";
 $l['banned_user'] = "Usuario baneado";
-$l['lifted_ban'] = "Lifted User Ban";
+$l['lifted_ban'] = "Suspensión levantada";
 
 $l['warning_logs'] = "Historial de advertencias";
 $l['warned_user'] = "Usuario";

@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: global.lang.php 5738 2012-03-31 19:51:59Z Anio_pke $ 
+ * $Id: global.lang.php 5738 2013-04-29 19:51:59Z Anio_pke $ 
  */
 
 $l['redirect_width'] = "50%";
@@ -108,6 +108,7 @@ $l['yes'] = "Sí";
 $l['no'] = "No";
 
 $l['and'] = "y";
+$l['date'] = "Fecha";
 
 $l['attachments'] = "Archivos adjuntos";
 $l['attachments_desc'] = "Opcionalmente, puedes agregar uno o más archivos a este mensaje. Por favor selecciona el archivo a la derecha y pulsa en 'Agregar archivo' para subirlo.";
@@ -205,11 +206,12 @@ $l['postbit_unapproved_attachment'] = "1 archivo adjunto rechazado.";
 $l['postbit_status_online'] = "En línea";
 $l['postbit_status_offline'] = "Sin conexión";
 $l['postbit_status_away'] = "Ausente";
-$l['postbit_edited'] = "Última modificación de este mensaje: {1} {2} por";
+$l['postbit_edited'] = "Este mensaje fue modificado por última vez en: {1} {2} por";
 $l['postbit_ipaddress'] = "Dirección IP:";
 $l['postbit_ipaddress_logged'] = "Almacenada";
 $l['postbit_post'] = "Mensaje:";
 $l['postbit_reputation'] = "Reputación:";
+$l['postbit_reputation_add'] = "Dar reputación a este usuario";
 $l['postbit_website'] = "Visita su sitio web";
 $l['postbit_email'] = "Envíale un email";
 $l['postbit_find'] = "Encuentra todos sus mensajes";

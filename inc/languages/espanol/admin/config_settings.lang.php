@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: config_settings.lang.php 5557 2012-03-31 21:35:05Z Anio_pke $
+ * $Id: config_settings.lang.php 5557 2013-04-29 21:35:05Z Anio_pke $
  */
  
 $l['board_settings'] = "Ajustes del foro";
@@ -157,8 +157,8 @@ $l['setting_usertppoptions'] = "Opciones seleccionables de temas por página";
 $l['setting_usertppoptions_desc'] = "Si quieres permitir a los usuarios elegir cuántos temas quieren ver por página que se muestran en el foro, introduce las opciones que quieras permitir separadas con comas. Si prefires no permitir que escojan el número de temas por página, déjalo en blanco.";
 $l['setting_allowthreadratings'] = "Usar calificaciones de tema";
 $l['setting_allowthreadratings_desc'] = "Permitir a los usuarios calificar los temas";
-$l['setting_dotfolders'] = "Usar iconos con puntos";
-$l['setting_dotfolders_desc'] = "Si quieres que se muestre un punto en el indicador en los temas cuando el usuario ha participado en ese tema.";
+$l['setting_dotfolders'] = "Usar iconos de mensaje";
+$l['setting_dotfolders_desc'] = "Si quieres usar un punto en el indicador en los temas cuando el usuario ha participado en ese tema.";
 $l['setting_browsingthisforum'] = "Usuarios navegando este foro";
 $l['setting_browsingthisforum_desc'] = "Aquí puedes desactivar la característica 'Usuarios navegando este foro'.";
 $l['setting_announcementlimit'] = "Límite de anuncios";

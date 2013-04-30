@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_file_verification.lang.php 5016 2010-08-12 00:24:02Z Anio_pke $
+ * $Id: tools_file_verification.lang.php 5016 2013-04-29 00:24:02Z Anio_pke $
  */
  
 $l['file_verification'] = "Verificación de archivos";
@@ -14,6 +14,7 @@ $l['error_communication'] = "Ha ocurrido un problema de comunicación con el ser
 $l['file'] = "Archivo";
 $l['no_corrupt_files_found'] = "¡Enhorabuena! No se han encontrado archivos corruptos en tu instalación.";
 $l['found_problems'] = "Problemas encontrados";
+$l['no_problems_found'] = "No se han encontrado problemas";
 $l['changed'] = "Cambiado";
 $l['missing'] = "Ausente";
 $l['status'] = "Estado";

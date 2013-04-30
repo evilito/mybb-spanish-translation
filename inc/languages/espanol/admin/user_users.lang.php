@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: user_users.lang.php 5696 2012-03-31 21:01:44Z Anio_pke $
+ * $Id: user_users.lang.php 5696 2013-04-29 21:01:44Z Anio_pke $
  */
 
 $l['users'] = "Usuarios";
@@ -102,6 +102,7 @@ $l['error_invalid_view_sortorder'] = "Has seleccionado una ordenación inválida
 $l['error_invalid_view_delete'] = "La vista seleccionada para eliminar es inválida";
 $l['error_cannot_delete_view'] = "Debes tener como mínimo 1 vista.";
 $l['error_inline_no_users_selected'] = "Lo siento, pero no has seleccionado ningún usuario. Por favor, selecciona algún usuario e inténtalo de nuevo.";
+$l['error_no_referred_users'] = "El usuario seleccionado no tiene recomendaciones.";
 
 $l['user_deletion_confirmation'] = "¿Estás seguro de querer eliminar este usuario?";
 

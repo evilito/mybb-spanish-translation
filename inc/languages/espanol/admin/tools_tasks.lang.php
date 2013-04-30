@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_tasks.lang.php 5017 2011-07-31 15:54:30Z evilito $
+ * $Id: tools_tasks.lang.php 5017 2013-04-29 15:54:30Z Anio_pke $
  */
 
 $l['task_manager'] = "Tareas programadas";

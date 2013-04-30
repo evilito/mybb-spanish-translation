@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_system_health.lang.php 5017 2013-04-29 20:48:15Z evilito $
+ * $Id: tools_system_health.lang.php 5017 2013-04-29 20:48:15Z Anio_pke $
  */
 
 $l['system_health'] = "Estado del sistema";

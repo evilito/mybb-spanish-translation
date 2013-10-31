@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: member.lang.php 5741 2013-04-29 19:56:33Z Anio_pke $
+ * $Id: member.lang.php 5741 2013-10-31 19:56:33Z Anio_pke $
  */
 
 $l['nav_register'] = "Registrar";
@@ -128,6 +128,7 @@ $l['coppa_agreement_1'] = "Los usuario menores de 13 años deben tener el permis
 $l['coppa_agreement_2'] = "El padre o tutor legal debe descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">formulario de permiso COPPA</a> antes de confirmar tu membresía.";
 $l['coppa_agreement_3'] = "Si, quieres puedes comenzar el registro, sin embargo, tu cuenta estará inaccesible mientras no se reciba el formulario con el permiso.";
 
+$l['error_invalid_birthday'] = 'La fecha de nacimiento que has introducido es inválida. Por favor, introduce una fecha correcta.';
 $l['error_awaitingcoppa'] = "No puedes iniciar sesión con esta cuenta mientras está en espera de la validación COPPA.<br /><br />El padre o tutor legal debe descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">formulario de permiso COPPA</a>.<br /><br />Cuando recibamos una copia completa de este formulario, la cuenta se activará.";
 
 $l['lang_select'] = "Ajustes de idioma:";

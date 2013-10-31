@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_adminlog.lang.php 5557 2011-11-28 13:25:33Z Anio_pke $
+ * $Id: tools_adminlog.lang.php 5557 2013-10-31 13:25:33Z Anio_pke $
  */
 
 
@@ -182,14 +182,14 @@ $l['admin_log_style_themes_export'] = "Exportar estilo #{1} ({2})";
 $l['admin_log_tools_system_health_utf8_conversion'] = "Convertir tabla {1} al formato UTF-8.";
 
 $l['admin_log_tools_adminlog_prune'] = "Limpiar entradas del historial de administración {4} con más de {1} días";
-$l['admin_log_tools_adminlog_prune_user'] = "Limpiar entradas del historial de administración {4} con más de {1} días del usuario {2}";
+$l['admin_log_tools_adminlog_prune_user'] = "Limpiar entradas del historial de administración {4} con más de {1} días del usuario #{2}";
 $l['admin_log_tools_adminlog_prune_module'] = "Limpiar entradas del historial de administración {4} con más de {1} días del módulo {3}";
-$l['admin_log_tools_adminlog_prune_user_module'] = "Limpiar entradas del historial de administración {4} con más de {1} días del usuario {2} y del módulo {3}";
+$l['admin_log_tools_adminlog_prune_user_module'] = "Limpiar entradas del historial de administración {4} con más de {1} días del usuario #{2} y del módulo {3}";
 
 $l['admin_log_tools_modlog_prune'] = "Limpiar entradas del historial de moderación {4} con más de {1} días";
-$l['admin_log_tools_modlog_prune_user'] = "Limpiar entradas del historial de moderación {4} con más de {1} días para el usuario {2}";
+$l['admin_log_tools_modlog_prune_user'] = "Limpiar entradas del historial de moderación {4} con más de {1} días para el usuario #{2}";
 $l['admin_log_tools_modlog_prune_forum'] = "Limpiar entradas del historial de moderación {4} con más de {1} días del foro #{3} ({5})";
-$l['admin_log_tools_modlog_prune_user_forum'] = "Limpiar entradas del historial de moderación {4} con más de {1} días del usuario y del foro #{5} ({4})";
+$l['admin_log_tools_modlog_prune_user_forum'] = "Limpiar entradas del historial de moderación {4} con más de {1} días del usuario #{2} y del foro #{3} ({5})";
 
 $l['admin_log_tools_backupdb_dlbackup'] = "Descargar una copia de seguridad existente: {1}";
 $l['admin_log_tools_backupdb_delete'] = "Eliminar una copia de seguridad: {1}";

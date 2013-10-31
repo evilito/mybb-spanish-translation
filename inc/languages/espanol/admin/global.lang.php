@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: global.lang.php 5740 2012-03-31 20:48:33Z Anio_pke $
+ * $Id: global.lang.php 5740 2013-10-31 20:48:33Z Anio_pke $
  */
  
 $l['today'] = "Hoy";
@@ -47,6 +47,10 @@ $l['error_admin_session_expired'] = "Tu sesión de administración ha caducado";
 $l['error_invalid_ip'] = "Tu IP no es válida para esta sesión";
 $l['error_mybb_admin_lockedout'] = "Esta cuenta ha sido bloqueada";
 $l['error_mybb_admin_lockedout_message'] = "Tu cuenta está bloqueada tras fallar {1} veces el inicio de sesión. Se te ha enviado un email con las instrucciones para desbloquear tu cuenta.";
+
+$l['error_invalid_username'] = "El nombre de usuario introducido es inválido.";
+$l['error_invalid_uid'] = "El id de usuario introducido es inválido.";
+$l['error_invalid_token'] = "El código de activación introducido es inválido.";
 
 $l['success_logged_out'] = "Se ha cerrado la sesión correctamente.";
 $l['error_invalid_username_password'] = "La combinación de usuario y contraseña introducida es inválida.";
@@ -274,7 +278,7 @@ Tu cuenta de administrador en {2} se ha bloqueado tras fallar {3} veces.
 
 Para desbloquear tu cuenta, por favor accede a la URL de abajo con tu navegador web.
 
-{4}/{5}/index.php?action=unlock&token={6}
+{4}/{5}/index.php?action=unlock&uid={7}&token={6}
 
 Si el enlace no funciona correctamente, accede a
 

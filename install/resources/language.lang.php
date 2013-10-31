@@ -135,7 +135,7 @@ $l['req_step_error_box'] = '<p><strong>{1}</strong></p>';
 $l['req_step_error_phpversion'] = 'MyBB requiere PHP 4.1.0 o posterior para ejecutarse. Actualmente tienes instalado {1}.';
 $l['req_step_error_dboptions'] = 'MyBB requiere una o más extensiones de base de datos para instalarse. El servidor avisa de que ninguna está disponible.';
 $l['req_step_error_xmlsupport'] = 'MyBB requiere PHP con soporte XML Data Handling. Por favor, visita <a href="http://www.php.net/xml" target="_blank">PHP.net</a> para más información.';
-$l['req_step_error_configdefaultfile'] = 'El archivo de configuración (inc/config.default.php) no puede ser renombrado. Por favor, renómbralo manualmente de <u>config.default.php</u> a <u>config.php</u> para permitir la escritura en él, o contacta con el <a href="http://www.mybb.com/support" targert="_blank">soporte de MyBB.</a>';
+$l['req_step_error_configdefaultfile'] = 'El archivo de configuración (inc/config.default.php) no puede ser renombrado. Por favor, renómbralo manualmente de <u>config.default.php</u> a <u>config.php</u> para permitir la escritura en él, o contacta con el <a href="http://www.mybb.com/support" target="_blank">soporte de MyBB.</a>';
 $l['req_step_error_configfile'] = 'El archivo de configuración (inc/config.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://docs.mybb.com/CHMOD_Files.html" target="_blank">chmod</a> para permitir escribir en él.';
 $l['req_step_error_settingsfile'] = 'El archivo de opciones (inc/settings.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://docs.mybb.com/CHMOD_Files.html" target="_blank">chmod</a> para permitir escribir en él.';
 $l['req_step_error_cachedir'] = 'El directorio cache (cache/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="http://docs.mybb.com/CHMOD_Files.html" target="_blank">chmod</a> para permitir escribir en él.';
@@ -319,10 +319,10 @@ $l['done_step_admincreated'] = '<p>Creando cuenta de administrador...';
 $l['done_step_adminoptions'] = '<p>Construyendo los permisos del administrador...';
 $l['done_step_cachebuilding'] = '<p>Construyendo la caché de los datos...';
 $l['done_step_success'] = '<p class="success">Tu copia de MyBB se ha instalado y configurado correctamente.</p>
-<p>El grupo de MyBB te agradece que hayas instalado nuestro software y esperamos que entres en los foros de la comunidad si necesitas ayuda o quieres ser parte de la comunidad de MyBB.</p>';
+<p>El grupo de MyBB te agradece que hayas instalado nuestro software y esperamos que entres en los foros de la comunidad si necesitas ayuda o quieres ser parte de la <a href="http://community.mybb.com/" target="_blank">comunidad de MyBB</a>.</p>';
 $l['done_step_locked'] = '<p>El instalador se ha bloqueado. Para desbloquear el instalador elimina el archivo \'lock\' de este directorio.</p><p>Ahora puedes ver tu nueva copia de <a href="../index.php">MyBB</a> o entrar al <a href="../admin/index.php">panel de administración</a>.</p>';
 $l['done_step_dirdelete'] = '<p><strong><span style="colour:red">Por favor, elimina este directorio antes de utilizar tu copia de MyBB.</span></strong></p>';
-$l['done_subscribe_mailing'] = '<div class="error"><p><strong>¡Deberías suscribrte a la lista de correo de actualizaciones!</strong></p><p>Siempre que salga una nueva versión de MyBB, con nuevas funciones o de actualizaciones de seguridad, enviaremos un mensaje por email alertándote de ello.</p><p>Esto te ayuda a permanecer a la última de las nuevas actualizaciones de seguridad y te aseguras que ejecutas la última y mejor versión de MyBB!</p><p><a href="http://www.mybb.com/mailing-list" target="_blank">¡Suscribirme a la lista de correo!</a></p>';
+$l['done_whats_next'] = '<div class="error"><p><strong>¿Migrando desde otro software de foros?</strong></p><p>MyBB ofrece un sistema llamado "merge system" para mezclar facilmente múltiples foros desde otros software de foros, permitiendo una conversión sencilla a MyBB. ¡Si estás interesado en cambiar a vas en la buena dirección! Revisa <a target="_blank" href="http://www.mybb.com/downloads/merge-system">Merge System</a> para más información.</p>';
 
 /* UPGRADE LANGUAGE VARIABLES */
 $l['upgrade'] = "Actualización";

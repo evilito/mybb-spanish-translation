@@ -10,10 +10,10 @@
 $langinfo['name'] = "Español (Internacional)";
 
 // The author of the language
-$langinfo['author'] = "SoporteMyBB";
+$langinfo['author'] = "Anio_pke, Omar, Evilito, alv4, nodba";
 
 // The language authors website
-$langinfo['website'] = "http://www.soportemybb.com/";
+$langinfo['website'] = "";
 
 // Compatible version of MyBB
 $langinfo['version'] = "1612";

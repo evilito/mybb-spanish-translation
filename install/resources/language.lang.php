@@ -188,6 +188,7 @@ $l['db_step_error_missingencoding'] = 'No has seleccionado una codificación. Po
 $l['db_step_error_sqlite_invalid_dbname'] = 'No puedes usar URLs relativas para las bases de datos de SQLite. Por favor, usa una ruta completa al archivo (ej. /home/user/database.db) para tu base de datos SQLite.';
 $l['db_step_error_invalid_tableprefix'] = 'Solo puedes utilizar barra baja (_) y caracteres alfanuméricos en el prefijo de la tabla. Por favor, utiliza un prefijo válido antes de continuar.';
 $l['db_step_error_tableprefix_too_long'] = 'Solo puedes utilizar prefijos con menos de 40  caracteres. Por favor, usa un prefijo más corto antes de continuar';
+$l['db_step_error_utf8mb4_error'] = '\'4-Byte UTF-8 Unicode\' necesita MySQL 5.5.3 o superior. Por favor, selecciona esta codificación si es compatible con tu versión de MySQL.';
 
 $l['tablecreate_step_connected'] = '<p>Se ha conectado con el servidor de bases de datos especificado correctamente.</p>
 <p>Motor de Base de Datos: {1} {2}</p>

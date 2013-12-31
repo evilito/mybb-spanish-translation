@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_system_health.lang.php 5017 2013-04-29 20:48:15Z Anio_pke $
+ * $Id: tools_system_health.lang.php 5017 2013-12-31 20:48:15Z Anio_pke $
  */
 
 $l['system_health'] = "Estado del sistema";
@@ -16,6 +16,8 @@ $l['convert_all'] = "Convertir todo";
 $l['converting_to_utf8'] = "MyBB actualmente está convirtiendo la tabla \"{1}\" al formato UTF-8 desde la codificación {2}.";
 $l['convert_to_utf8'] = "Convertir la tabla \"{1}\" al formato UTF-8 desde la codificación {2}.";
 $l['convert_all_to_utf'] = "Convertir TODAS las tablas al formato UTF-8 desde la codificación {1}.";
+$l['convert_all_to_utf8mb4'] = "Estás conviertiendo TODAS tus tablas a la codificación 4-Byte UTF-8 Unicode desde la codificación {1}.";
+$l['converting_to_utf8mb4'] = "MyBB está convirtiendo la tabla \"{1}\" a la codificación 4-Byte UTF-8 Unicode desde la codificación {2}.";
 $l['please_wait'] = "Por favor, espera...";
 $l['converting_table'] = "Convertiendo la tabla:";
 $l['convert_table'] = "Convertir tabla";
@@ -23,7 +25,10 @@ $l['convert_tables'] = "Convertir todas las tablas";
 $l['convert_database_table'] = "Convertir tabla de la base de datos";
 $l['convert_database_tables'] = "Convertir toda la base de datos";
 $l['table'] = "Tabla";
-$l['status'] = "Estado";
+$l['status_utf8'] = "Estado UTF-8";
+$l['status_utf8mb4'] = "Soporte 4-Byte UTF-8<br />(necesita MySQL 5.5.3 o superior)";
+$l['not_available'] = "No disponible";
+$l['all_tables'] = "Todas las tablas";
 $l['convert_now'] = "Convertir ahora";
 $l['totals'] = "Totales";
 $l['attachments'] = "Adjuntos";
@@ -56,7 +61,8 @@ $l['cache_dir'] = "Directorio caché";
 $l['themes_dir'] = "Directorio de los estilos";
 $l['chmod_files_and_dirs'] = "CHMOD archivos y directorios";
 
-$l['notice_process_long_time'] = "Este proceso puede llevar varias horas dependiendo del tamaño de tu foro y de sus tablas.";
+$l['notice_process_long_time'] = "Este proceso puede llevar varias horas dependiendo del tamaño de tu foro y de sus tablas. <strong>Es muy recomendable crear una copia de seguridad ya que este proceso no se puede deshacer.</strong>";
+$l['notice_mb4_warning'] = "El soporte 4-Byte UTF-8 necesita MySQL 5.5.3 o superior. No podrás importar tu base de datos en un servidor MySQL con otra versión.";
 
 $l['check_templates'] = "Revisar plantillas";
 $l['check_templates_desc'] = "Revisa todas las plantillas instaladas en busca de problemas de seguridad conocidos.";
@@ -72,6 +78,11 @@ $l['error_db_encoding_not_set'] = "Tu instalación actual de MyBB no tiene activ
 $l['error_not_supported'] = "Tu motor de bases de datos no soporta la herramienta de conversión a UTF-8.";
 $l['error_invalid_input'] = "Hubo un problema al revisar las plantillas. Por favor intenta de nuevo o contacta a MyBB Group para recibir ayuda.";
 $l['error_master_templates_altered'] = "Las plantillas maestras han sido alteradas. Por favor contacta a MyBB Group para recibir ayuda sobre cómo modificarlas.";
+$l['error_utf8mb4_version'] = "Tu versión MySQL no suporta la codificación 4-Byte UTF-8.";
+
+
+$l['warning_multiple_encodings'] = "No es recomendable usar diferentes codificaciones en tu base de datos. Esto puede causar comportamientos extraños o errores MySQL.";
+$l['warning_utf8mb4_config'] = "Para un soporte completo de 4-Byte UTF-8 necesitas cambiar <i>\$config['database']['encoding'] = 'utf8';</i> a <i>\$config['database']['encoding'] = 'utf8mb4';</i> en tu inc/config.php.";
 
 $l['success_templates_checked'] = "Las plantillas han sido revisadas correctamente. No se encontraron problemas de seguridad.";
 $l['success_all_tables_already_converted'] = "Todas las tablas se han convertido o ya están en el formato UTF-8.";

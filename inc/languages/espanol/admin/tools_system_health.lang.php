@@ -42,6 +42,7 @@ $l['stats'] = "Estadísticas";
 $l['task'] = "Tarea";
 $l['run_time'] = "Fecha de ejecución";
 $l['next_3_tasks'] = "Próximas 3 tareas";
+$l['no_tasks'] = "No hay tareas ejecutándose en este momento.";
 $l['backup_time'] = "Fecha de creación";
 $l['no_backups'] = "Actualmente no hay ninguna copia de seguridad.";
 $l['existing_db_backups'] = "Copias de seguridad existentes";

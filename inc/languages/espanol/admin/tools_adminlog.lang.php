@@ -59,7 +59,7 @@ $l['admin_log_config_calendars_add'] = "Agregar calendario #{1} ({2})";
 $l['admin_log_config_calendars_permissions'] = "Modficar permisos para el calendario #{1} ({2})";
 $l['admin_log_config_calendars_edit'] = "Editar calendario #{1} ({2})";
 $l['admin_log_config_calendars_delete'] = "Eliminar calendario #{1} ({2})";
-$l['admin_log_config_calendars_update_orders'] = "Actualizar orden de muestra de calendarios";
+$l['admin_log_config_calendars_update_order'] = "Actualizar orden de muestra de calendarios";
 
 $l['admin_log_config_help_documents_add_section'] = "Agregar sección de ayuda #{1} ({2})";
 $l['admin_log_config_help_documents_add_document'] = "Agregar documento de ayuda #{1} ({2})";
@@ -196,7 +196,8 @@ $l['admin_log_tools_backupdb_delete'] = "Eliminar una copia de seguridad: {1}";
 $l['admin_log_tools_backupdb_backup'] = "Crear una copia de seguridad: {2}";
 $l['admin_log_tools_backupdb_backup_download'] = "Descargar una copia de seguridad de la actual base de datos";
 
-$l['admin_log_tools_cache_rebuild'] = "Reconstruir cache ({1})";
+$l['admin_log_tools_cache_rebuild'] = "Reconstruir caché ({1})";
+$l['admin_log_tools_cache_reload'] = "Recargar caché ({1})";
 
 $l['admin_log_tools_index_utf8_conversion'] = "Convertir tabla {1} a UTF-8.";
 
@@ -245,8 +246,8 @@ $l['admin_log_user_groups_add'] = "Agregar grupo de usuarios #{1} ({2})";
 $l['admin_log_user_groups_edit'] = "Editar grupo de usuarios #{1} ({2})";
 $l['admin_log_user_groups_delete'] = "Eliminar grupo de usuarios #{1} ({2})";
 $l['admin_log_user_groups_disporder'] = "Actualizar orden de muestra de los grupos de usuarios";
-$l['admin_log_user_groups_join_requests_approve'] = "Aceptar las peticiones de ingreso seleccionadas para el grupo de usuarios #{1} ({2})";
-$l['admin_log_user_groups_join_requests_deny'] = "Rechazar las peticiones de ingreso seleccionadas para el grupo de usuarios #{1} ({2})";
+$l['admin_log_user_groups_join_requests_approve'] = "Aceptar las peticiones de ingreso seleccionadas para el grupo de usuarios #{3} ({2})";
+$l['admin_log_user_groups_join_requests_deny'] = "Rechazar las peticiones de ingreso seleccionadas para el grupo de usuarios #{3} ({2})";
 
 $l['admin_log_user_titles_add'] = "Agregar título de usuario #{1} ({2}) a los {3} mensajes";
 $l['admin_log_user_titles_edit'] = "Editar título de usuario #{1} ({2}) a los {3} mensajes";

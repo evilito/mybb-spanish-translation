@@ -187,6 +187,7 @@ $l['edited_user_info'] = "<strong>Usuario:</strong> <a href=\"{2}\">{1}</a>";
 $l['edited_user_ban'] = "Suspensión editada.";
 $l['banned_user'] = "Usuario baneado";
 $l['lifted_ban'] = "Suspensión levantada";
+$l['no_bans_ending'] = "No hay suspensiones que terminen pronto.";
 
 $l['warning_logs'] = "Historial de advertencias";
 $l['warned_user'] = "Usuario";

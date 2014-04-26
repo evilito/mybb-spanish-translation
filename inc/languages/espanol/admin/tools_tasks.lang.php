@@ -2,7 +2,7 @@
 /**
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
- * 
+ *
  * $Id: tools_tasks.lang.php 5017 2013-04-29 15:54:30Z Anio_pke $
  */
 
@@ -75,5 +75,6 @@ $l['success_task_run'] = "La tarea seleccionada se ha ejecutado correctamente.";
 
 $l['confirm_task_deletion'] = "¿Estás seguro de querer eliminar esta tarea programada?";
 $l['confirm_task_enable'] = "<strong>ADVERTENCIA:</strong> Estás activando una tarea que solo se puede ejecutar a través de cron (Por favor, visita el <a href=\"http://wiki.mybb.com/\" target=\"_blank\">MyBB Wiki</a> para más información). ¿Continuar?";
+$l['no_tasks'] = "No hay tareas en eb tu foro en este momento.";
 
 ?>

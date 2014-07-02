@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_modlog.lang.php 5557 2011-11-28 13:28:33Z Anio_pke $
+ * $Id: tools_modlog.lang.php 5557 2014-07-02 13:28:33Z Anio_pke $
  */
 
 
@@ -24,6 +24,7 @@ $l['forum'] = "Foro:";
 $l['thread'] = "Tema:";
 $l['post'] = "Mensaje:";
 $l['user_info'] = "Usuario:";
+$l['announcement'] = "Anuncio:";
 
 $l['filter_moderator_logs'] = "Filtrar historial de moderación";
 $l['forum_moderator'] = "Moderador:";

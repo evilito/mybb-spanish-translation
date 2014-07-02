@@ -2,8 +2,8 @@
 /**
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: showthread.lang.php 5016 2010-08-10 12:32:33Z Anio_pke $
+ *
+ * $Id: showthread.lang.php 5016 2014-07-02 12:32:33Z Anio_pke $
  */
 
 $l['delete_poll'] = "Borrar encuesta";
@@ -41,7 +41,7 @@ $l['edit_poll'] = "Editar encuesta";
 $l['public_note'] = "<b>Nota:</b> Esta es una encuesta pública, otros usuarios verán por quién votaste.";
 $l['total'] = "Total";
 $l['vote'] = "¡Vota!";
-$l['total_votes'] = "{1} votos";
+$l['total_votes'] = "{1} voto(s)";
 $l['you_voted'] = "* Tú votaste por esta opción.";
 $l['poll_closed'] = "Esta encuesta esta cerrada.";
 $l['already_voted'] = "Tu ya votaste en esta encuesta.";
@@ -55,7 +55,7 @@ $l['post_reply'] = "Enviar respuesta";
 $l['post_reply_img'] = "Enviar respuesta";
 $l['post_thread'] = "Enviar tema";
 $l['preview_post'] = "Vista previa del mensaje";
-$l['rating_average'] = "{1} votos - {2} Media";
+$l['rating_average'] = "{1} voto(s) - {2} Media";
 $l['rate_thread'] = "Califica este tema:";
 $l['thread_rating'] = "Calificación:";
 $l['similar_threads'] = "Posibles temas similares...";

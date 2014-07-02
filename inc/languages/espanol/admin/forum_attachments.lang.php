@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: forum_attachments.lang.php 5016 2010-08-11 12:32:33Z Anio_pke $
+ * $Id: forum_attachments.lang.php 5016 2014-07-02 12:32:33Z Anio_pke $
  */
 
 // Tabs
@@ -71,6 +71,7 @@ $l['step2of2'] = "Paso 2 de 2 - Escaneando base de datos";
 $l['step1of2_line1'] = "Por favor, espere, el sistema de ficheros está siendo escaneado buscando adjuntos huérfanos.";
 $l['step2of2_line1'] = "Por favor, espere, la base de datos está siendo escaneada buscando adjuntos huérfanos.";
 $l['step_line2'] = "Cuando el proceso se complete se saltará al siguiente paso automáticamente.";
+$l['scanning'] = 'Escaneando...';
 
 // = Attachments / Index
 $l['index_find_attachments'] = "Adjuntos - Buscar adjuntos";

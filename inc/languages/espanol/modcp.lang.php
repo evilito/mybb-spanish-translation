@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  *
- * $Id: modcp.lang.php 5686 2013-04-29 20:00:33Z Anio_pke $
+ * $Id: modcp.lang.php 5686 2014-07-02 20:00:33Z Anio_pke $
  */
 
 $l['nav_width'] = "180";
@@ -188,6 +188,7 @@ $l['edited_user_ban'] = "Suspensión editada.";
 $l['banned_user'] = "Usuario baneado";
 $l['lifted_ban'] = "Suspensión levantada";
 $l['no_bans_ending'] = "No hay suspensiones que terminen pronto.";
+$l['close_window'] = "Cerrar ventana";
 
 $l['warning_logs'] = "Historial de advertencias";
 $l['warned_user'] = "Usuario";
@@ -280,4 +281,9 @@ $l['error_invalid_start_date'] = "La fecha de inicio del anuncio es inválido.";
 $l['error_invalid_end_date'] = "La fecha de finalización del anuncio es inválido.";
 $l['error_end_before_start'] = "La fecha de finalización debe ser posterior a la de inicio.";
 $l['error_invalid_announcement'] = "El anuncio especificado es inválido.";
+$l['announcement_added'] = "Anuncio creado";
+$l['announcement_edited'] = "Anuncio editado";
+$l['announcement_deleted'] = "Anuncio eliminado";
+
+$l['post'] = 'Mensaje';
 ?>

@@ -322,7 +322,7 @@ $l['done_step_cachebuilding'] = '<p>Construyendo la caché de los datos...';
 $l['done_step_success'] = '<p class="success">Tu copia de MyBB se ha instalado y configurado correctamente.</p>
 <p>El grupo de MyBB te agradece que hayas instalado nuestro software y esperamos que entres en los foros de la comunidad si necesitas ayuda o quieres ser parte de la <a href="http://community.mybb.com/" target="_blank">comunidad de MyBB</a>.</p>';
 $l['done_step_locked'] = '<p>El instalador se ha bloqueado. Para desbloquear el instalador elimina el archivo \'lock\' de este directorio.</p><p>Ahora puedes ver tu nueva copia de <a href="../index.php">MyBB</a> o entrar al <a href="../admin/index.php">panel de administración</a>.</p>';
-$l['done_step_dirdelete'] = '<p><strong><span style="colour:red">Por favor, elimina este directorio antes de utilizar tu copia de MyBB.</span></strong></p>';
+$l['done_step_dirdelete'] = '<p><strong><span style="color:red">Por favor, elimina este directorio antes de utilizar tu copia de MyBB.</span></strong></p>';
 $l['done_whats_next'] = '<div class="error"><p><strong>¿Migrando desde otro software de foros?</strong></p><p>MyBB ofrece un sistema llamado "merge system" para mezclar facilmente múltiples foros desde otros software de foros, permitiendo una conversión sencilla a MyBB. ¡Si estás interesado en cambiar a vas en la buena dirección! Revisa <a target="_blank" href="http://www.mybb.com/downloads/merge-system">Merge System</a> para más información.</p>';
 
 /* UPGRADE LANGUAGE VARIABLES */
@@ -342,6 +342,14 @@ $l['upgrade_template_reversion'] = "Advertencia revertir plantillas";
 $l['upgrade_template_reversion_success'] = "<p>Todas las modificaciones necesarias para actualizar tu foro se han realizado correctamente.</p><p>Esta actualización necesita que las plantillas regresen a las originales contenidas en este paquete, así que por favor copia cualquier plantilla personalizada antes de continuar.";
 $l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Enviar estadísticas anónimas de las especificaciones de tu servidor al grupo MyBB</label> (<a href=\"http://docs.mybb.com/Anonymous_Statistics.html\" style=\"color: #555;\" target=\"_blank\"><small>¿Qué infomación se envía?</small></a>)</p>";
 
+$l['please_login'] = "Por favor, inicia sesión";
+$l['login'] = "Iniciar sesión";
+$l['login_desc'] = "Por favor, introduce tu nombre de usuario y contraseña para iniciar el proceso de actualización. Debes ser un administrador válido para realizar esta acción.";
+$l['login_username'] = "Nombre de usuario";
+$l['login_password'] = "Contraseña";
+$l['login_password_desc'] = "Por favor, ten en cuenta que las contraseñas distinguen mayúsculas y minúsculas.";
+
 /* Error messages */
 $l['locked'] = 'El instalador está bloqueado, por favor, elimina el archivo \'lock\' de la carpeta \'install\' para continuar';
+$l['no_permision'] = "No tienes permisos para ejecutar este proceso. Necesitas permisos de administrador para realizar el proceso de actualización.<br /><br />Si necesitas cerrar sesión, por favor, haz click <a href=\"upgrade.php?action=logout&amp;logoutkey={1}\">aquí</a>. Después podrás iniciar sesión de nuevo con tu cuenta de administrador.";
 ?>

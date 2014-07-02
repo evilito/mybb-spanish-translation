@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: tools_adminlog.lang.php 5557 2013-10-31 13:25:33Z Anio_pke $
+ * $Id: tools_adminlog.lang.php 5557 2014-07-02 13:25:33Z Anio_pke $
  */
 
 
@@ -221,7 +221,8 @@ $l['admin_log_tools_tasks_enable'] = "Activar tarea #{1} ({2})";
 $l['admin_log_tools_tasks_disable'] = "Desactivar tarea #{1} ({2})";
 $l['admin_log_tools_tasks_run'] = "Ejecutar tarea #{1} ({2})";
 
-$l['admin_log_user_admin_permissions_delete'] = "Eliminar permisos de administrador al usuario #{1} ({2})";
+$l['admin_log_user_admin_permissions_delete_user'] = "Eliminar permisos de administrador al usuario #{1} ({2})";
+$l['admin_log_user_admin_permissions_delete_group'] = "Eliminar permisos de administrador al grupo #{1} ({2})";
 $l['admin_log_user_admin_permissions_edit_user'] = "Editar permisos de administrador al usuario #{1} ({2})";
 $l['admin_log_user_admin_permissions_edit_group'] = "Editar permisos de administrador de grupos para el grupos #{1} ({2})";
 $l['admin_log_user_admin_permissions_edit'] = "Editar permisos de administrador predefinidos";

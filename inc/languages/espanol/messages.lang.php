@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: : messages.lang.php 5740 2012-12-15 20:01:16Z Anio_pke $
+ * $Id: messages.lang.php 5740 2014-07-02 20:01:16Z Anio_pke $
  */
 
 $l['click_no_wait'] = "Haz clic aquí si no quieres esperar más.";
@@ -73,6 +73,7 @@ $l['error_too_many_images3'] = "<b>Nota:</b> La máxima cantidad de imágenes po
 $l['error_attach_file'] = "Error adjuntando archivo";
 $l['please_correct_errors'] = "Corrige los siguientes errores antes de continuar:";
 $l['error_reachedattachquota'] = "Lo sentimos, pero no puedes adjuntar este archivo porque ya has llegado a la cuota de {1}";
+$l['error_maxattachpost'] = "Lo sentimos, pero no puedes adjuntar este archivo porque ya tienes el máximo permitido por mensaje de {1}";
 $l['error_invaliduser'] = "El usuario especificado es inválido o no existe.";
 $l['error_invalidaction'] = "Acción inválida";
 $l['error_messagelength'] = "Lo sentimos, pero tu mensaje es muy largo y no puede publicarse. Por favor, intenta cortar tu mensaje e intenta de nuevo.";

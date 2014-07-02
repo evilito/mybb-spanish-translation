@@ -3,7 +3,7 @@
  * MyBB 1.6 Spanish Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: forum_management.lang.php 5677 2012-03-31 20:46:33Z Anio_pke $
+ * $Id: forum_management.lang.php 5677 2014-07-02 20:46:33Z Anio_pke $
  */
 
 $l['forum_management'] = "Configurar foro";
@@ -213,6 +213,7 @@ $l['save_permissions'] = "Guardar permisos";
 $l['error_missing_title'] = "No has introducido un título.";
 $l['error_no_parent'] = "No has seleccionado un foro padre.";
 $l['error_not_empty'] = "Los foros con temas no se pueden convertir en categorías.";
+$l['error_forum_link_not_empty'] = "Los foros que contienen temas no se pueden redireccionar a otra página.";
 
 $l['success_forum_added'] = "El foro se ha agregado correctamente.";
 $l['success_moderator_added'] = "El moderador se ha agregado al foro correctamente.";

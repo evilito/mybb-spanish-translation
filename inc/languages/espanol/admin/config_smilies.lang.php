@@ -46,6 +46,7 @@ $l['error_missing_path'] = "No has introducido una ruta para este icono gestual"
 $l['error_missing_path_multiple'] = "No has introducido una ruta";
 $l['error_missing_order'] = "No has introducido un orden para este icono gestual";
 $l['error_missing_clickable'] = "No has especificado Si o No en la opción \"¿Mostrar clicable?\"";
+$l['error_duplicate_order'] = "No has introducido un orden válido para este icono gestual";
 $l['error_no_smilies'] = "No hay iconos gestuales en la carpeta especificada o todos los iconos gestuales de la carpeta han sido agregados.";
 $l['error_no_images'] = "No hay imágenes en al carpeta especificada";
 $l['error_none_included'] = "No has seleccionado ningún icono gestual para agregar.";
